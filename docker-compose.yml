@@ -1,0 +1,18 @@
+services:
+  pronunciation:
+    build:
+      context: ./services/pronunciation
+      args:
+        MODEL_ID: facebook/wav2vec2-lv-60-espeak-cv-ft
+    ports:
+      - "127.0.0.1:9000:9000"
+    environment:
+      PRONUNCIATION_MODEL: facebook/wav2vec2-lv-60-espeak-cv-ft
+      TORCH_THREADS: "4"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:9000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 180s

@@ -5,6 +5,7 @@ import type {
   EssayRow,
   Exam,
   GradeResult,
+  PronunciationResult,
   ReviewItemRow,
   ReviewItemWithPreview,
   SessionMode,
@@ -125,6 +126,22 @@ export const api = {
       throw new ApiError(message, res.status, 'tts_error')
     }
     return res.arrayBuffer()
+  },
+
+  assessPronunciation: async (audio: Blob, text: string): Promise<PronunciationResult> => {
+    const form = new FormData()
+    form.append('audio', audio, audio instanceof File ? audio.name : 'speech.webm')
+    form.append('text', text)
+    const res = await fetch('/api/pronunciation', { method: 'POST', body: form })
+    if (!res.ok) {
+      let message = '声学评测失败。'
+      try {
+        const body = (await res.json()) as { message?: string }
+        if (body.message) message = body.message
+      } catch {}
+      throw new ApiError(message, res.status, 'pronunciation_error')
+    }
+    return (await res.json()) as PronunciationResult
   },
 
   asr: async (blob: Blob): Promise<string> => {

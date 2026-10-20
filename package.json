@@ -11,7 +11,8 @@
     "start": "bun server/index.ts",
     "test": "bun test",
     "typecheck": "tsc --noEmit",
-    "validate:content": "bun run scripts/validate-content.ts"
+    "validate:content": "bun run scripts/validate-content.ts",
+    "pronunciation": "bash services/pronunciation/run.sh"
   },
   "dependencies": {
     "react": "^19.3.1",

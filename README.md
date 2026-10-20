@@ -122,6 +122,24 @@ bun run build
 
 `tests/stub-llm.ts` 是仅用于联调的本地假模型（`bun tests/stub-llm.ts`），不参与应用运行。
 
+## 声学发音评测（可选）
+
+跟读面板支持可选的 **GOP-lite** 声学评测：音素 CTC 模型 + 强制对齐，输出准确度、逐词分数和低分音素。
+
+```bash
+# 推荐：本地 Python 3.12 + uv
+./services/pronunciation/run.sh
+
+# 或 Docker（Docker Hub 可能需要 docker login）
+docker compose up -d --build pronunciation
+```
+
+- 首次运行会下载 CPU 版 PyTorch 和 `facebook/wav2vec2-lv-60-espeak-cv-ft`（约 1.5–2 GB）。
+- 服务默认监听 `127.0.0.1:9000`；应用通过 `PRONUNCIATION_URL` 访问，默认已配好。
+- 在 **对话练习 → 跟读训练** 里点 **录音评测**，或点 **上传** 选择一段音频。
+- 结果是 GOP 估算，不是雅思/托福官方发音分；对麦克风、噪声和口音敏感，只用于相对反馈和音素提示。
+- 依赖模型与 `phonemizer`/`espeak-ng` 的许可证；商用前请核对。侧车不启动时，其他功能不受影响。
+
 ## 已知限制
 
 - 数字人是内置 SVG 渲染，不是官方 Live2D Cubism 运行时。它使用同一套参数（口型开合/形状、眼睑、头部角度、身体摆动），可替换为正式 Live2D 模型，但需要自行取得 Cubism SDK 与模型授权。

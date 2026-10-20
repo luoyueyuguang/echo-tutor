@@ -409,6 +409,42 @@ async function handleApi(req: Request, url: URL): Promise<Response> {
     })
   }
 
+  if (parts[1] === 'pronunciation' && method === 'POST') {
+    const form = await req.formData()
+    const audio = form.get('audio')
+    const text = String(form.get('text') ?? '').trim()
+    if (!(audio instanceof File)) throw new HttpError('缺少录音文件。', 400, 'no_audio')
+    if (!text) throw new HttpError('缺少参考文本。', 400, 'no_text')
+    if (audio.size > 20_000_000) throw new HttpError('录音文件过大。', 413, 'too_large')
+    const endpoint = (process.env.PRONUNCIATION_URL ?? 'http://127.0.0.1:9000').replace(/\/+$/, '')
+    const upstream = new FormData()
+    upstream.append('audio', audio, audio.name || 'speech.webm')
+    upstream.append('text', text)
+    try {
+      const res = await fetch(`${endpoint}/assess`, {
+        method: 'POST',
+        body: upstream,
+        signal: AbortSignal.timeout(60_000),
+      })
+      if (!res.ok) {
+        let detail = ''
+        try {
+          const body = (await res.json()) as { detail?: string }
+          detail = body.detail ?? ''
+        } catch {}
+        throw new HttpError(`声学评测失败${detail ? `：${detail}` : ''}`, 502, 'pronunciation_error')
+      }
+      return json(await res.json())
+    } catch (err) {
+      if (err instanceof HttpError) throw err
+      throw new HttpError(
+        '声学评测服务未启动。运行 `docker compose up -d pronunciation` 后重试。',
+        503,
+        'pronunciation_unavailable',
+      )
+    }
+  }
+
   if (parts[1] === 'asr' && method === 'POST') {
     const llm = needLlm()
     const form = await req.formData()

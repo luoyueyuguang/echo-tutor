@@ -325,6 +325,31 @@ export interface ReviewItemWithPreview extends ReviewItemRow {
   preview: Record<string, string>
 }
 
+export interface PronunciationPhone {
+  phone: string
+  word: string
+  score: number
+  gop: number
+  known: boolean
+  start: number | null
+  end: number | null
+}
+
+export interface PronunciationWord {
+  word: string
+  score: number
+}
+
+export interface PronunciationResult {
+  accuracy: number
+  phones: PronunciationPhone[]
+  words: PronunciationWord[]
+  mispronounced: PronunciationPhone[]
+  model: string
+  durationSec: number
+  note: string
+}
+
 export type ChatStreamEvent =
   | { type: 'delta'; text: string }
   | { type: 'done'; turnId: number; text: string }

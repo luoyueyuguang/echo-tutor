@@ -1193,6 +1193,56 @@ details[open] summary::before {
 .dictation-input input {
   flex: 1;
 }
+.pron-report {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 9px;
+  border-top: 1px solid var(--border-soft);
+}
+.pron-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.pron-head b {
+  color: var(--accent);
+  font-size: 19px;
+}
+.pron-miss {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  font-size: 12.5px;
+  color: #f3a6b3;
+}
+.pron-miss small {
+  color: var(--muted);
+}
+.pron-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 6px;
+}
+.pron-words span {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-size: 11.5px;
+  color: #cbd6e2;
+}
+.pron-words span.low {
+  color: var(--danger);
+  border-color: rgba(251, 113, 133, 0.35);
+}
+.pron-upload {
+  cursor: pointer;
+}
 .drill-result {
   grid-column: 1 / -1;
   border-top: 1px solid var(--border-soft);

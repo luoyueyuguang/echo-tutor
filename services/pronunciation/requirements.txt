@@ -1,0 +1,7 @@
+fastapi>=0.115
+uvicorn[standard]>=0.34
+python-multipart>=0.0.20
+transformers>=4.49
+phonemizer>=3.3
+soundfile>=0.13
+numpy>=2.0

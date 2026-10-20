@@ -7,3 +7,7 @@ data/
 *.log
 coverage/
 .DS_Store
+__pycache__/
+*.pyc
+.venv/
+services/pronunciation/models/

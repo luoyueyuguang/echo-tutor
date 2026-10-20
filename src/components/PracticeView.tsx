@@ -10,6 +10,7 @@ import type {
   SessionRow,
   ShadowDrill,
   ToeflSpeakingSet,
+  PronunciationResult,
   TurnRow,
 } from '../shared/types'
 import { api, streamChat } from '../api'
@@ -618,6 +619,7 @@ export function PracticeView({ settings, content, notify, onOpenSettings, onData
               lang={settings.accent}
               notify={notify}
               speak={speakText}
+              stopSpeech={() => playerRef.current?.cancel()}
             />
           ) : mode === 'dictation' ? (
             <DictationPanel drills={content.drills} drillId={drillId} setDrillId={setDrillId} drill={drill} notify={notify} speak={speakText} />
@@ -1182,6 +1184,46 @@ function DictationPanel({
   )
 }
 
+function PronunciationReport({ result }: { result: PronunciationResult }) {
+  const worst = result.mispronounced.slice(0, 8)
+  return (
+    <div className="pron-report">
+      <div className="pron-head">
+        <span>声学准确度（GOP-lite）</span>
+        <b>{Math.round(result.accuracy)}%</b>
+      </div>
+      <div className="score-track">
+        <div
+          className={`score-fill ${result.accuracy >= 70 ? 'score-good' : result.accuracy >= 50 ? 'score-mid' : 'score-low'}`}
+          style={{ width: `${Math.max(3, Math.min(100, result.accuracy))}%` }}
+        />
+      </div>
+      {worst.length ? (
+        <p className="pron-miss">
+          {worst.map((phone, index) => (
+            <span key={`${phone.phone}-${phone.word}-${index}`}>
+              /{phone.phone}/ <small>{phone.word} · {Math.round(phone.score)}</small>
+            </span>
+          ))}
+        </p>
+      ) : (
+        <p className="muted tiny">没有检测到明显低分音素。</p>
+      )}
+      <details>
+        <summary>逐词分数</summary>
+        <div className="pron-words">
+          {result.words.map((word, index) => (
+            <span key={`${word.word}-${index}`} className={word.score < 55 ? 'low' : ''}>
+              {word.word} · {Math.round(word.score)}
+            </span>
+          ))}
+        </div>
+      </details>
+      <p className="muted tiny">{result.note}</p>
+    </div>
+  )
+}
+
 function ShadowPanel({
   drills,
   drillId,
@@ -1190,6 +1232,7 @@ function ShadowPanel({
   lang,
   notify,
   speak,
+  stopSpeech,
 }: {
   drills: ShadowDrill[]
   drillId: string
@@ -1198,10 +1241,15 @@ function ShadowPanel({
   lang: string
   notify: (message: string, kind?: ToastKind) => void
   speak: (text: string) => void
+  stopSpeech: () => void
 }) {
   const [activeText, setActiveText] = useState('')
   const [transcript, setTranscript] = useState('')
   const [result, setResult] = useState<TranscriptComparison | null>(null)
+  const [acoustic, setAcoustic] = useState<PronunciationResult | null>(null)
+  const [assessing, setAssessing] = useState(false)
+  const [recordingItem, setRecordingItem] = useState<string | null>(null)
+  const recorderRef = useRef<AudioRecorder | null>(null)
 
   const recognition = useSpeechRecognition({
     lang,
@@ -1216,20 +1264,87 @@ function ShadowPanel({
   })
 
   useEffect(() => {
+    if (recorderRef.current) {
+      recorderRef.current.stop().catch(() => {})
+      recorderRef.current = null
+    }
+    setRecordingItem(null)
     setTranscript('')
     setResult(null)
+    setAcoustic(null)
     setActiveText('')
   }, [drillId])
 
+  useEffect(() => {
+    return () => {
+      if (recorderRef.current) {
+        recorderRef.current.stop().catch(() => {})
+        recorderRef.current = null
+      }
+    }
+  }, [])
+
   function record(item: string) {
+    if (recordingItem) {
+      notify('先停止当前录音评测。', 'info')
+      return
+    }
     setActiveText(item)
     setTranscript('')
     setResult(null)
+    setAcoustic(null)
     if (!speechRecognitionSupported()) {
       notify('当前浏览器不支持语音识别，请用 Chrome / Edge。', 'error')
       return
     }
     recognition.start()
+  }
+
+  async function assessAudio(item: ShadowDrill['items'][number], blob: Blob) {
+    setAssessing(true)
+    setAcoustic(null)
+    try {
+      setAcoustic(await api.assessPronunciation(blob, item.text))
+    } catch (err) {
+      notify((err as Error).message, 'error')
+    } finally {
+      setAssessing(false)
+    }
+  }
+
+  async function toggleAcoustic(item: ShadowDrill['items'][number]) {
+    if (assessing) return
+    if (recordingItem === item.text) {
+      setRecordingItem(null)
+      const recorder = recorderRef.current
+      recorderRef.current = null
+      if (!recorder) return
+      try {
+        const { blob } = await recorder.stop()
+        await assessAudio(item, blob)
+      } catch (err) {
+        notify((err as Error).message, 'error')
+      }
+      return
+    }
+    if (recordingItem) {
+      notify('先停止当前录音评测。', 'info')
+      return
+    }
+    stopSpeech()
+    recognition.stop()
+    setActiveText(item.text)
+    setTranscript('')
+    setResult(null)
+    setAcoustic(null)
+    try {
+      const recorder = new AudioRecorder()
+      await recorder.start()
+      recorderRef.current = recorder
+      setRecordingItem(item.text)
+    } catch {
+      notify('无法访问麦克风。请检查浏览器权限。', 'error')
+    }
   }
 
   return (
@@ -1258,9 +1373,42 @@ function ShadowPanel({
               <button className="btn tiny ghost" onClick={() => speak(item.text)}>
                 播放
               </button>
-              <button className="btn tiny" onClick={() => record(item.text)}>
+              <button className="btn tiny" onClick={() => record(item.text)} disabled={Boolean(recordingItem) || assessing}>
                 跟读
               </button>
+              <button
+                className="btn tiny ghost"
+                onClick={() => void toggleAcoustic(item)}
+                disabled={assessing || (recordingItem !== null && recordingItem !== item.text)}
+              >
+                {recordingItem === item.text ? '停止评测' : '录音评测'}
+              </button>
+              <label className="btn tiny ghost pron-upload">
+                上传
+                <input
+                  type="file"
+                  accept="audio/*"
+                  hidden
+                  onChange={(event) => {
+                    const file = event.target.files?.[0]
+                    event.currentTarget.value = ''
+                    if (!file) return
+                    if (recordingItem) {
+                      notify('先停止当前录音评测。', 'info')
+                      return
+                    }
+                    if (assessing) {
+                      notify('上一次评测还没完成。', 'info')
+                      return
+                    }
+                    setActiveText(item.text)
+                    setTranscript('')
+                    setResult(null)
+                    setAcoustic(null)
+                    void assessAudio(item, file)
+                  }}
+                />
+              </label>
             </div>
             {activeText === item.text && result ? (
               <div className="drill-result">
@@ -1277,6 +1425,8 @@ function ShadowPanel({
                 <p className="muted tiny">这是词级覆盖率，不是音素级发音分。</p>
               </div>
             ) : null}
+            {activeText === item.text && assessing ? <div className="pron-report"><Spinner label="声学评测中…" /></div> : null}
+            {activeText === item.text && acoustic ? <PronunciationReport result={acoustic} /> : null}
           </li>
         ))}
       </ul>
