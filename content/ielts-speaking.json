@@ -1,0 +1,656 @@
+{
+  "part1": [
+    {
+      "topic": "Work and study",
+      "topicZh": "工作与学习",
+      "questions": [
+        "Do you work or are you a student?",
+        "What do you like most about your job or your studies?",
+        "Is there anything you would like to change about it?",
+        "What kind of work would you like to do in the future?"
+      ]
+    },
+    {
+      "topic": "Hometown",
+      "topicZh": "家乡",
+      "questions": [
+        "Where is your hometown?",
+        "What is it like?",
+        "What do you like most about your hometown?",
+        "Would you like to live there in the future?"
+      ]
+    },
+    {
+      "topic": "Home",
+      "topicZh": "住所",
+      "questions": [
+        "Do you live in a house or a flat?",
+        "Which is your favourite room?",
+        "What would you like to change about your home?",
+        "How long have you lived there?"
+      ]
+    },
+    {
+      "topic": "Family",
+      "topicZh": "家庭",
+      "questions": [
+        "Do you have a large family?",
+        "How much time do you spend with your family?",
+        "Who are you closest to in your family?",
+        "What do you usually do together?"
+      ]
+    },
+    {
+      "topic": "Food",
+      "topicZh": "食物",
+      "questions": [
+        "What kind of food do you enjoy?",
+        "Do you prefer eating at home or in restaurants?",
+        "Is there any food you dislike?",
+        "Have your eating habits changed in recent years?"
+      ]
+    },
+    {
+      "topic": "Travel",
+      "topicZh": "旅行",
+      "questions": [
+        "Do you enjoy travelling?",
+        "What was the last place you visited?",
+        "How do you usually travel around your city?",
+        "Where would you like to go next?"
+      ]
+    },
+    {
+      "topic": "Hobbies",
+      "topicZh": "爱好",
+      "questions": [
+        "What do you do in your free time?",
+        "Do you have a hobby you started recently?",
+        "Is your hobby expensive?",
+        "Would you like to try a new hobby?"
+      ]
+    },
+    {
+      "topic": "Weather",
+      "topicZh": "天气",
+      "questions": [
+        "What is the weather like in your city?",
+        "What is your favourite season?",
+        "Does the weather affect your plans?",
+        "Do you prefer hot or cold weather?"
+      ]
+    },
+    {
+      "topic": "Technology",
+      "topicZh": "科技",
+      "questions": [
+        "How often do you use your phone?",
+        "Which piece of technology could you not live without?",
+        "Do you use technology for study or work?",
+        "Is there any technology you find difficult to use?"
+      ]
+    },
+    {
+      "topic": "Music",
+      "topicZh": "音乐",
+      "questions": [
+        "What kind of music do you like?",
+        "When do you usually listen to music?",
+        "Have you ever learned to play an instrument?",
+        "Would you like to go to a concert?"
+      ]
+    },
+    {
+      "topic": "Sports",
+      "topicZh": "运动",
+      "questions": [
+        "Do you play any sports?",
+        "How often do you exercise?",
+        "Did you play sports when you were a child?",
+        "Do you prefer watching sports or playing them?"
+      ]
+    },
+    {
+      "topic": "Reading",
+      "topicZh": "阅读",
+      "questions": [
+        "Do you enjoy reading?",
+        "What kind of things do you read?",
+        "When do you usually find time to read?",
+        "Do you prefer paper books or e-books?"
+      ]
+    }
+  ],
+  "part2": [
+    {
+      "id": "p2-001",
+      "topic": "A person who influenced you",
+      "topicZh": "一个影响过你的人",
+      "cue": "Describe a person who has had a strong influence on you.",
+      "bullets": [
+        "who this person is",
+        "how you met or knew them",
+        "what they did that influenced you",
+        "and explain how your life changed as a result"
+      ],
+      "followUps": [
+        "What qualities make someone a good role model?",
+        "Do you think family influence is stronger than the influence of friends?",
+        "How might the people we admire change as we get older?"
+      ]
+    },
+    {
+      "id": "p2-002",
+      "topic": "A place you like to spend time",
+      "topicZh": "一个你喜欢的城市去处",
+      "cue": "Describe a place in your city where you like to spend time.",
+      "bullets": [
+        "where it is",
+        "what it looks like",
+        "what you usually do there",
+        "and explain why you enjoy it"
+      ],
+      "followUps": [
+        "Why do people need public spaces in cities?",
+        "Are cafés and parks equally important?",
+        "How could cities be designed to offer more relaxing places?"
+      ]
+    },
+    {
+      "id": "p2-003",
+      "topic": "An object you use every day",
+      "topicZh": "一件每天都会用的物品",
+      "cue": "Describe an object you bought that you use every day.",
+      "bullets": [
+        "what it is",
+        "when and where you bought it",
+        "how often you use it",
+        "and explain why it is so useful"
+      ],
+      "followUps": [
+        "Do people buy too many things they do not need?",
+        "How has online shopping changed buying habits?",
+        "Should advertising aimed at children be restricted?"
+      ]
+    },
+    {
+      "id": "p2-004",
+      "topic": "A memorable event",
+      "topicZh": "一次难忘的活动",
+      "cue": "Describe a memorable event you attended.",
+      "bullets": [
+        "what the event was",
+        "when and where it took place",
+        "who you went with",
+        "and explain why you remember it"
+      ],
+      "followUps": [
+        "Why do communities hold public celebrations?",
+        "Are large events worth the money they cost?",
+        "How do festivals affect local economies?"
+      ]
+    },
+    {
+      "id": "p2-005",
+      "topic": "An activity that helps you relax",
+      "topicZh": "一项让你放松的活动",
+      "cue": "Describe an activity you do to relax.",
+      "bullets": [
+        "what the activity is",
+        "how you learned it",
+        "how often you do it",
+        "and explain why it helps you relax"
+      ],
+      "followUps": [
+        "Is relaxation more difficult now than in the past?",
+        "Should schools teach students how to manage stress?",
+        "Do hobbies need to be productive to be worthwhile?"
+      ]
+    },
+    {
+      "id": "p2-006",
+      "topic": "A film or TV programme",
+      "topicZh": "一部喜欢的电影或电视节目",
+      "cue": "Describe a film or TV programme you enjoyed recently.",
+      "bullets": [
+        "what it was about",
+        "where you watched it",
+        "what you liked about it",
+        "and explain whether you would recommend it"
+      ],
+      "followUps": [
+        "Why do people prefer streaming to going to the cinema?",
+        "Do films shape public attitudes?",
+        "Should governments fund their national film industries?"
+      ]
+    },
+    {
+      "id": "p2-007",
+      "topic": "A person you enjoy spending time with",
+      "topicZh": "一个你喜欢相处的人",
+      "cue": "Describe a person you enjoy spending time with.",
+      "bullets": [
+        "who the person is",
+        "how you know each other",
+        "what you usually do together",
+        "and explain why you like their company"
+      ],
+      "followUps": [
+        "Is it easier to make friends when you are young?",
+        "How does technology affect friendship?",
+        "Can colleagues be close friends?"
+      ]
+    },
+    {
+      "id": "p2-008",
+      "topic": "A place you would like to visit",
+      "topicZh": "一个未来想去的地方",
+      "cue": "Describe a place you would like to visit in the future.",
+      "bullets": [
+        "where it is",
+        "how you first heard about it",
+        "what you would like to do there",
+        "and explain why it appeals to you"
+      ],
+      "followUps": [
+        "Why do people want to travel to distant places?",
+        "Does tourism harm local cultures?",
+        "Will virtual travel ever replace real travel?"
+      ]
+    },
+    {
+      "id": "p2-009",
+      "topic": "A useful piece of technology",
+      "topicZh": "一件有用的科技产品",
+      "cue": "Describe a piece of technology you find useful.",
+      "bullets": [
+        "what it is",
+        "when you started using it",
+        "what you use it for",
+        "and explain why you could not easily live without it"
+      ],
+      "followUps": [
+        "Does technology make people less independent?",
+        "Should older people be given help to use digital services?",
+        "What technology might become essential in the next decade?"
+      ]
+    },
+    {
+      "id": "p2-010",
+      "topic": "An event you are looking forward to",
+      "topicZh": "一件期待的活动",
+      "cue": "Describe an event you are looking forward to.",
+      "bullets": [
+        "what the event is",
+        "when it will happen",
+        "who will be there",
+        "and explain why you are excited about it"
+      ],
+      "followUps": [
+        "Is planning for the future more important than enjoying the present?",
+        "Why do people enjoy anticipating events?",
+        "Do national celebrations still matter today?"
+      ]
+    },
+    {
+      "id": "p2-011",
+      "topic": "A skill you learned as a child",
+      "topicZh": "童年学会的一项技能",
+      "cue": "Describe a skill you learned as a child.",
+      "bullets": [
+        "what the skill was",
+        "who taught you",
+        "how long it took you to learn",
+        "and explain how you feel about it now"
+      ],
+      "followUps": [
+        "Should children be taught practical skills at school?",
+        "Are some skills better learned online?",
+        "Why do adults find it hard to learn new skills?"
+      ]
+    },
+    {
+      "id": "p2-012",
+      "topic": "A news story that interested you",
+      "topicZh": "一则让你感兴趣的新闻",
+      "cue": "Describe a piece of news or a media story that interested you.",
+      "bullets": [
+        "what it was",
+        "how you came across it",
+        "why it caught your attention",
+        "and explain what you learned from it"
+      ],
+      "followUps": [
+        "How can people judge whether news is reliable?",
+        "Is it a problem that people choose only familiar news sources?",
+        "Should social media companies be responsible for misinformation?"
+      ]
+    },
+    {
+      "id": "p2-013",
+      "topic": "A person who is good at their job",
+      "topicZh": "一个工作出色的人",
+      "cue": "Describe a person you know who is good at their job.",
+      "bullets": [
+        "who the person is",
+        "what their job is",
+        "what they do particularly well",
+        "and explain why you admire their approach"
+      ],
+      "followUps": [
+        "What makes a good manager?",
+        "Is job satisfaction more important than salary?",
+        "How will automation change the skills people need?"
+      ]
+    },
+    {
+      "id": "p2-014",
+      "topic": "A quiet place",
+      "topicZh": "一个安静的地方",
+      "cue": "Describe a quiet place you like to go to.",
+      "bullets": [
+        "where it is",
+        "how often you go there",
+        "what you do there",
+        "and explain why quiet places are important to you"
+      ],
+      "followUps": [
+        "Are cities becoming too noisy?",
+        "How does noise affect people’s health?",
+        "Should quiet zones be protected by law?"
+      ]
+    },
+    {
+      "id": "p2-015",
+      "topic": "Something you plan to buy",
+      "topicZh": "一件未来打算买的物品",
+      "cue": "Describe something you plan to buy in the future.",
+      "bullets": [
+        "what it is",
+        "how much it will cost",
+        "why you want it",
+        "and explain how you will use it"
+      ],
+      "followUps": [
+        "Are people more materialistic than they used to be?",
+        "Does advertising create unnecessary desires?",
+        "Should there be limits on consumer credit?"
+      ]
+    },
+    {
+      "id": "p2-016",
+      "topic": "A time you worked in a team",
+      "topicZh": "一次团队合作经历",
+      "cue": "Describe a time when you worked as part of a team.",
+      "bullets": [
+        "what the task was",
+        "who was in the team",
+        "what your role was",
+        "and explain what you learned from the experience"
+      ],
+      "followUps": [
+        "Are teams more effective than individuals?",
+        "What causes conflict within teams?",
+        "Should schools assess students on teamwork?"
+      ]
+    },
+    {
+      "id": "p2-017",
+      "topic": "A new activity you would like to try",
+      "topicZh": "一项想尝试的新活动",
+      "cue": "Describe a new activity you would like to try.",
+      "bullets": [
+        "what the activity is",
+        "where you could do it",
+        "what skills it would require",
+        "and explain why it interests you"
+      ],
+      "followUps": [
+        "Why do some people avoid trying new things?",
+        "Is taking risks necessary for personal growth?",
+        "Should dangerous sports be strictly regulated?"
+      ]
+    },
+    {
+      "id": "p2-018",
+      "topic": "A website or app you use often",
+      "topicZh": "一个常用的网站或应用",
+      "cue": "Describe a website or app you use often.",
+      "bullets": [
+        "what it is",
+        "when you started using it",
+        "what you use it for",
+        "and explain why it is helpful to you"
+      ],
+      "followUps": [
+        "Do people rely too much on apps?",
+        "How do companies use the personal data they collect?",
+        "Should essential digital services be free?"
+      ]
+    },
+    {
+      "id": "p2-019",
+      "topic": "Someone you would like to meet",
+      "topicZh": "一个你想见的人",
+      "cue": "Describe someone you would like to meet.",
+      "bullets": [
+        "who the person is",
+        "how you know about them",
+        "what you would ask them",
+        "and explain why you would like to meet them"
+      ],
+      "followUps": [
+        "Do celebrities have a responsibility to be good examples?",
+        "Why are people so fascinated by famous figures?",
+        "Is it healthy to admire public figures?"
+      ]
+    },
+    {
+      "id": "p2-020",
+      "topic": "A place that has changed",
+      "topicZh": "一个变化很大的地方",
+      "cue": "Describe a place that has changed a lot.",
+      "bullets": [
+        "where it is",
+        "what it was like before",
+        "how it has changed",
+        "and explain how you feel about the change"
+      ],
+      "followUps": [
+        "Is urban development always beneficial?",
+        "How can cities preserve their character while growing?",
+        "Should residents have a say in local planning decisions?"
+      ]
+    },
+    {
+      "id": "p2-021",
+      "topic": "A gift you gave someone",
+      "topicZh": "一件你送出的礼物",
+      "cue": "Describe a gift you gave to someone.",
+      "bullets": [
+        "what the gift was",
+        "who you gave it to",
+        "why you chose it",
+        "and explain how the person reacted"
+      ],
+      "followUps": [
+        "Is giving gifts an important social custom?",
+        "Are expensive gifts better than thoughtful ones?",
+        "Has online shopping changed the way people give gifts?"
+      ]
+    },
+    {
+      "id": "p2-022",
+      "topic": "A difficult decision",
+      "topicZh": "一个艰难的决定",
+      "cue": "Describe a difficult decision you had to make.",
+      "bullets": [
+        "what the decision was",
+        "what options you had",
+        "who helped you decide",
+        "and explain why it was difficult"
+      ],
+      "followUps": [
+        "Should young people be given more freedom to make their own decisions?",
+        "How do emotions affect the decisions people make?",
+        "Can decision-making skills be taught?"
+      ]
+    },
+    {
+      "id": "p2-023",
+      "topic": "A daily routine you would like to change",
+      "topicZh": "一个想改变的日常习惯",
+      "cue": "Describe a daily routine you would like to change.",
+      "bullets": [
+        "what the routine is",
+        "why you follow it",
+        "what you would like to change",
+        "and explain how the change would help you"
+      ],
+      "followUps": [
+        "Are routines good for people?",
+        "Why do some people dislike change?",
+        "How can workplaces support healthier daily routines?"
+      ]
+    },
+    {
+      "id": "p2-024",
+      "topic": "A podcast or radio programme",
+      "topicZh": "一个喜欢听的播客或广播节目",
+      "cue": "Describe a podcast or radio programme you enjoy listening to.",
+      "bullets": [
+        "what it is about",
+        "how you found it",
+        "when you usually listen",
+        "and explain why you enjoy it"
+      ],
+      "followUps": [
+        "Are audio media replacing reading?",
+        "Do podcasts encourage shallow learning?",
+        "Should public broadcasters be funded by the state?"
+      ]
+    }
+  ],
+  "part3": [
+    {
+      "topic": "Role models and relationships",
+      "topicZh": "榜样与人际关系",
+      "questions": [
+        "What qualities do young people look for in a role model?",
+        "Why do people sometimes copy the behaviour of celebrities?",
+        "Has social media changed the way people form close friendships?",
+        "Should governments do more to support family relationships, or is this a private matter?"
+      ]
+    },
+    {
+      "topic": "Public spaces and urban change",
+      "topicZh": "公共空间与城市变化",
+      "questions": [
+        "Why are parks and public squares important in cities?",
+        "What are the main reasons some city centres lose their character?",
+        "How can planners balance new development with the needs of existing residents?",
+        "Should the quality of public space be a higher priority than housing?"
+      ]
+    },
+    {
+      "topic": "Consumer habits and advertising",
+      "topicZh": "消费习惯与广告",
+      "questions": [
+        "Why do people buy things they do not really need?",
+        "How does advertising influence the choices of young people?",
+        "Are second-hand goods becoming more socially acceptable?",
+        "Should there be restrictions on how much credit companies can offer?"
+      ]
+    },
+    {
+      "topic": "Public events and planning",
+      "topicZh": "公共活动与规划",
+      "questions": [
+        "Why do communities celebrate national festivals?",
+        "What benefits do large events bring to a city?",
+        "Is it better to spend public money on one big event or on many small local ones?",
+        "Do people today plan their lives more carefully than in the past?"
+      ]
+    },
+    {
+      "topic": "Leisure, stress and routines",
+      "topicZh": "休闲、压力与日常",
+      "questions": [
+        "Why is it important for people to have time to relax?",
+        "How have working patterns affected the way people spend their free time?",
+        "Should schools teach students how to manage stress?",
+        "Are strict daily routines helpful, or do they limit personal freedom?"
+      ]
+    },
+    {
+      "topic": "Screen media and influence",
+      "topicZh": "影视媒体及其影响",
+      "questions": [
+        "Why do people enjoy watching films and series?",
+        "Do films and television programmes influence how people behave?",
+        "Is streaming changing what kinds of stories get made?",
+        "Should governments support their national film industry?"
+      ]
+    },
+    {
+      "topic": "Travel and tourism",
+      "topicZh": "旅行与旅游业",
+      "questions": [
+        "Why do people want to visit other countries?",
+        "What problems can tourism cause for local communities?",
+        "Can tourism be managed so that it benefits everyone?",
+        "Will virtual travel ever replace the experience of going somewhere?"
+      ]
+    },
+    {
+      "topic": "Technology and digital life",
+      "topicZh": "科技与数字生活",
+      "questions": [
+        "How has the internet changed the way people learn?",
+        "Do people rely too much on apps and digital services?",
+        "What are the risks of allowing companies to collect personal data?",
+        "Should access to the internet be considered a basic right?"
+      ]
+    },
+    {
+      "topic": "Learning and skills",
+      "topicZh": "学习与技能",
+      "questions": [
+        "What practical skills should children learn at school?",
+        "Why do some adults find it difficult to learn new skills?",
+        "Is online learning as effective as classroom learning?",
+        "Should employers take more responsibility for training workers?"
+      ]
+    },
+    {
+      "topic": "News and information",
+      "topicZh": "新闻与信息",
+      "questions": [
+        "How do most people get their news today?",
+        "Why is it sometimes difficult to judge whether news is accurate?",
+        "What effect does misinformation have on public trust?",
+        "Should social media companies be held responsible for false content?"
+      ]
+    },
+    {
+      "topic": "Work and teamwork",
+      "topicZh": "工作与团队合作",
+      "questions": [
+        "What makes someone effective at their job?",
+        "Why can teamwork sometimes be less efficient than working alone?",
+        "Is job satisfaction more important than a high salary?",
+        "How might automation change the skills that workers need?"
+      ]
+    },
+    {
+      "topic": "Risk, decisions and personal growth",
+      "topicZh": "风险、决策与个人成长",
+      "questions": [
+        "Why do some people avoid trying new activities?",
+        "How do emotions affect the decisions people make?",
+        "Is taking risks necessary for personal growth?",
+        "Should governments protect people from risky choices, or leave them to decide?"
+      ]
+    }
+  ]
+}

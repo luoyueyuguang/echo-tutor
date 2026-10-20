@@ -1,0 +1,32 @@
+{
+  "name": "echo-tutor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run scripts/dev.ts",
+    "dev:web": "vite",
+    "dev:server": "bun --hot server/index.ts",
+    "build": "vite build",
+    "start": "bun server/index.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "validate:content": "bun run scripts/validate-content.ts"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  },
+  "description": "Local-first English tutor with a 2D digital human, IELTS/TOEFL/kaoyan speaking and writing practice.",
+  "engines": {
+    "bun": ">=1.1"
+  }
+}

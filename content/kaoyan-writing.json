@@ -1,0 +1,460 @@
+{
+  "tasks": [
+    {
+      "id": "kaoyan-w1-small-01",
+      "exam": "kaoyan",
+      "kind": "letter",
+      "topic": "A Complaint about a Damaged Laptop",
+      "topicZh": "网购电脑损坏与售后拖延",
+      "prompt": "You bought a laptop from an online store during a promotion. When it arrived, the screen was cracked, and the customer service team has not responded to your emails for two weeks. Write a letter to the customer service manager. In your letter, describe the problem, explain what you have already done, and state what you expect the company to do. Do not sign your own name; use 'Li Ming' instead.",
+      "minWords": 100,
+      "minutes": 15,
+      "guidance": [
+        "开头直接说明购买时间、订单号和产品型号。",
+        "描述问题时给出具体细节，如屏幕裂纹及签收时的包装状况。",
+        "说明已多次联系客服但未获回复，语气克制、有理有据。",
+        "结尾明确提出换货或全额退款，并给出回复期限。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-small-02",
+      "exam": "kaoyan",
+      "kind": "letter",
+      "topic": "A Suggestion for Library Services",
+      "topicZh": "向校图书馆提出改进建议",
+      "prompt": "The library at your university has asked students for suggestions on how to improve its services. Write a letter to the librarian. In your letter, describe one or two problems you have noticed, explain why they matter, and propose specific solutions. Do not sign your own name; use 'Li Ming' instead.",
+      "minWords": 100,
+      "minutes": 15,
+      "guidance": [
+        "先肯定图书馆现有服务，再转入具体问题。",
+        "问题要具体，例如座位不足、开放时间短或数据库访问受限。",
+        "每条问题后紧跟可操作的建议，避免空泛抱怨。",
+        "结尾表达愿意进一步配合，语气礼貌。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-small-03",
+      "exam": "kaoyan",
+      "kind": "letter",
+      "topic": "An Invitation to a Guest Lecture",
+      "topicZh": "邀请教授做客座讲座",
+      "prompt": "Your student association is organising a lecture series on technology and society. Write a letter to Professor Smith, inviting her to give a lecture on artificial intelligence and ethics. In your letter, introduce the event, explain why she is the right speaker, and give the practical details. Do not sign your own name; use 'Li Ming' instead.",
+      "minWords": 100,
+      "minutes": 15,
+      "guidance": [
+        "说明活动名称、主办方和讲座主题。",
+        "简要介绍教授的学术背景，说明邀请理由。",
+        "给出时间、地点、时长和听众规模等具体信息。",
+        "结尾询问方便时间并留下联系方式。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-small-04",
+      "exam": "kaoyan",
+      "kind": "letter",
+      "topic": "An Apology for a Missed Appointment",
+      "topicZh": "因缺席论文指导会面致歉",
+      "prompt": "You missed an appointment with Professor Wang to discuss your graduation thesis because of an unexpected medical emergency. Write a letter to him. In your letter, apologise for your absence, explain the reason, and propose a new time to meet. Do not sign your own name; use 'Li Ming' instead.",
+      "minWords": 100,
+      "minutes": 15,
+      "guidance": [
+        "开门见山道歉，说明会面时间和地点。",
+        "简短说明原因，不必过度渲染细节。",
+        "主动提出补救方案和新的会面时间。",
+        "结尾再次致歉并感谢理解。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-small-05",
+      "exam": "kaoyan",
+      "kind": "letter",
+      "topic": "An Application for a Volunteer Position",
+      "topicZh": "申请国际文化节志愿者",
+      "prompt": "The International Cultural Festival will be held in your city next month, and the organiser is recruiting student volunteers. Write a letter to apply for a position. In your letter, state the position you want, describe your relevant experience and skills, and explain your availability. Do not sign your own name; use 'Li Ming' instead.",
+      "minWords": 100,
+      "minutes": 15,
+      "guidance": [
+        "明确申请岗位，如接待、翻译或活动协调。",
+        "用具体经历证明语言能力、跨文化沟通或组织经验。",
+        "说明可投入的时间段，体现可靠性。",
+        "结尾表达期待面试机会，附联系方式。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-small-06",
+      "exam": "kaoyan",
+      "kind": "letter",
+      "topic": "A Letter of Thanks to a Host Family",
+      "topicZh": "感谢交换项目寄宿家庭",
+      "prompt": "You have just returned from a one-semester exchange programme. Write a letter to your host family. In your letter, thank them for their hospitality, describe one or two experiences you valued most, and tell them what you plan to do next. Do not sign your own name; use 'Li Ming' instead.",
+      "minWords": 100,
+      "minutes": 15,
+      "guidance": [
+        "开头表达已平安回国并感谢照顾。",
+        "选取一两个具体生活细节，如一起做饭或周末出游。",
+        "说明这段经历对你语言或观念的影响。",
+        "结尾表示保持联系并欢迎对方来访。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-small-07",
+      "exam": "kaoyan",
+      "kind": "letter",
+      "topic": "An Inquiry about a Summer Language Course",
+      "topicZh": "咨询暑期语言课程",
+      "prompt": "You are planning to attend a summer language course in another country. Write a letter to the language school. In your letter, introduce yourself, ask about course levels and accommodation, and inquire about fees and application deadlines. Do not sign your own name; use 'Li Ming' instead.",
+      "minWords": 100,
+      "minutes": 15,
+      "guidance": [
+        "先说明自身英语水平和学习目标。",
+        "把问题分组：课程分级、住宿安排、费用与截止日期。",
+        "问题具体，便于对方逐条回复。",
+        "结尾礼貌请求书面回复并留下邮箱。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-small-08",
+      "exam": "kaoyan",
+      "kind": "notice",
+      "topic": "Volunteer Recruitment for the English Festival",
+      "topicZh": "校园英语节志愿者招募",
+      "prompt": "The Student Union is recruiting volunteers for the annual Campus English Festival. Write a notice of about 100 words for the campus website. Your notice should state the purpose of the recruitment, describe the duties and requirements, and give information about how to apply. Do not sign your own name; use 'The Student Union' instead.",
+      "minWords": 100,
+      "minutes": 15,
+      "guidance": [
+        "标题要醒目，包含活动名称和'招募'关键词。",
+        "写明岗位职责、人数和基本要求，分条列出。",
+        "给出报名方式、截止日期和联系人。",
+        "通知语言简洁正式，避免第一人称抒情。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-small-09",
+      "exam": "kaoyan",
+      "kind": "notice",
+      "topic": "Lost and Found: A Black Wallet",
+      "topicZh": "图书馆拾获钱包招领",
+      "prompt": "You found a black wallet in the university library on Monday afternoon. Write a notice of about 100 words to be posted on the library notice board. Your notice should describe the item and where it was found, note what the owner should do to claim it, and give a contact detail. Do not sign your own name; use 'Li Ming' instead.",
+      "minWords": 100,
+      "minutes": 15,
+      "guidance": [
+        "写明拾获时间、地点和物品外观。",
+        "只透露可用于核实的部分信息，不公开全部内容。",
+        "说明认领时需出示的证明和认领地点。",
+        "留下联系方式并注明有效期。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-small-10",
+      "exam": "kaoyan",
+      "kind": "notice",
+      "topic": "Notice of a Career Planning Workshop",
+      "topicZh": "职业规划讲座通知",
+      "prompt": "The Career Centre of your university will hold a workshop on career planning for graduating students. Write a notice of about 100 words. Your notice should introduce the workshop, give the time and place, and explain how students can register. Do not sign your own name; use 'The Career Centre' instead.",
+      "minWords": 100,
+      "minutes": 15,
+      "guidance": [
+        "标题包含活动主题和面向对象。",
+        "说明主讲人、时间、地点和主要内容。",
+        "写明报名方式、名额限制和截止时间。",
+        "提醒参会事项，如携带简历。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-big-01",
+      "exam": "kaoyan",
+      "kind": "picture",
+      "topic": "Silence at the Dinner Table",
+      "topicZh": "家庭聚餐中的手机隔阂",
+      "prompt": "The cartoon shows a family dinner table on a Sunday evening. An elderly couple sit at either end, each staring at a smartphone. In the middle, their adult son holds a tablet in one hand and chopsticks in the other, his eyes fixed on the screen. Four bowls of soup have stopped steaming, and the only words in the picture appear on a phone screen: 'Almost done.' Write an essay of 160-200 words. In your essay, describe the drawing briefly, interpret its meaning, and give your comments.",
+      "minWords": 160,
+      "minutes": 30,
+      "guidance": [
+        "第一段用两三句话客观描述画面，不做评价。",
+        "第二段点明寓意，可由现象上升到社会或人生层面。",
+        "第三段给出自己的看法或建议，避免空喊口号。",
+        "注意段落之间使用过渡句，全文控制在 160-200 词。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-big-02",
+      "exam": "kaoyan",
+      "kind": "picture",
+      "topic": "A Desk at Three in the Morning",
+      "topicZh": "短视频沉迷与自律",
+      "prompt": "The cartoon shows a student's desk at three in the morning. Textbooks are stacked neatly on one side, untouched and still wrapped in plastic. In front of the student, a phone glows with a short-video feed, and the clock on the wall reads 3:00. A small plant on the desk has wilted. Write an essay of 160-200 words. In your essay, describe the drawing briefly, interpret its meaning, and give your comments.",
+      "minWords": 160,
+      "minutes": 30,
+      "guidance": [
+        "第一段用两三句话客观描述画面，不做评价。",
+        "第二段点明寓意，可由现象上升到社会或人生层面。",
+        "第三段给出自己的看法或建议，避免空喊口号。",
+        "注意段落之间使用过渡句，全文控制在 160-200 词。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-big-03",
+      "exam": "kaoyan",
+      "kind": "picture",
+      "topic": "The Weight of Certificates",
+      "topicZh": "求职中的文凭崇拜",
+      "prompt": "The cartoon shows a job interview. One applicant stands behind a tower of certificates so high that his face is hidden; another stands nearby holding a thin folder labelled 'three years of project experience'. The interviewer leans forward, squinting at the tower of certificates. Write an essay of 160-200 words. In your essay, describe the drawing briefly, interpret its meaning, and give your comments.",
+      "minWords": 160,
+      "minutes": 30,
+      "guidance": [
+        "第一段用两三句话客观描述画面，不做评价。",
+        "第二段点明寓意，可由现象上升到社会或人生层面。",
+        "第三段给出自己的看法或建议，避免空喊口号。",
+        "注意段落之间使用过渡句，全文控制在 160-200 词。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-big-04",
+      "exam": "kaoyan",
+      "kind": "picture",
+      "topic": "One Step from the Bin",
+      "topicZh": "垃圾入桶与公德意识",
+      "prompt": "The cartoon shows a man walking past an overflowing rubbish bin. He tosses a plastic bag toward it, but the bag lands on the ground just beside the bin. A sign above the bin reads 'Please keep our city clean', and the man is already looking at his phone. Write an essay of 160-200 words. In your essay, describe the drawing briefly, interpret its meaning, and give your comments.",
+      "minWords": 160,
+      "minutes": 30,
+      "guidance": [
+        "第一段用两三句话客观描述画面，不做评价。",
+        "第二段点明寓意，可由现象上升到社会或人生层面。",
+        "第三段给出自己的看法或建议，避免空喊口号。",
+        "注意段落之间使用过渡句，全文控制在 160-200 词。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-big-05",
+      "exam": "kaoyan",
+      "kind": "picture",
+      "topic": "The Empty Chair",
+      "topicZh": "节日团聚与亲情缺位",
+      "prompt": "The cartoon shows an elderly couple preparing a festival dinner. The table is full of dishes, but one chair remains empty. On that chair lies a smartphone with a video call showing their son at his office desk; a speech bubble reads 'Sorry, working late again'. The parents look at the empty chair rather than at the screen. Write an essay of 160-200 words. In your essay, describe the drawing briefly, interpret its meaning, and give your comments.",
+      "minWords": 160,
+      "minutes": 30,
+      "guidance": [
+        "第一段用两三句话客观描述画面，不做评价。",
+        "第二段点明寓意，可由现象上升到社会或人生层面。",
+        "第三段给出自己的看法或建议，避免空喊口号。",
+        "注意段落之间使用过渡句，全文控制在 160-200 词。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-big-06",
+      "exam": "kaoyan",
+      "kind": "picture",
+      "topic": "The Ghostwriter",
+      "topicZh": "学术诚信与技术依赖",
+      "prompt": "The cartoon shows a student handing in an essay. Behind the student, a robot sits at a desk typing, and a long ribbon of paper runs from the robot's printer into the student's backpack. The student smiles confidently, while the title on the essay reads 'My Own Work'. Write an essay of 160-200 words. In your essay, describe the drawing briefly, interpret its meaning, and give your comments.",
+      "minWords": 160,
+      "minutes": 30,
+      "guidance": [
+        "第一段用两三句话客观描述画面，不做评价。",
+        "第二段点明寓意，可由现象上升到社会或人生层面。",
+        "第三段给出自己的看法或建议，避免空喊口号。",
+        "注意段落之间使用过渡句，全文控制在 160-200 词。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-big-07",
+      "exam": "kaoyan",
+      "kind": "picture",
+      "topic": "The Sprinter and the Marathon Runner",
+      "topicZh": "急功近利与持之以恒",
+      "prompt": "The cartoon shows two runners on the same track. The first sprints ahead and collapses after a hundred metres, gasping beside a sign that reads 'Quick success'. The second jogs at a steady pace, carrying a water bottle, with the finish line still far in the distance. Write an essay of 160-200 words. In your essay, describe the drawing briefly, interpret its meaning, and give your comments.",
+      "minWords": 160,
+      "minutes": 30,
+      "guidance": [
+        "第一段用两三句话客观描述画面，不做评价。",
+        "第二段点明寓意，可由现象上升到社会或人生层面。",
+        "第三段给出自己的看法或建议，避免空喊口号。",
+        "注意段落之间使用过渡句，全文控制在 160-200 词。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-big-08",
+      "exam": "kaoyan",
+      "kind": "picture",
+      "topic": "The Endless Feast",
+      "topicZh": "食物浪费与节约意识",
+      "prompt": "The cartoon shows a customer at a buffet restaurant. His table is covered with half-finished plates, and he is reaching for yet another tray. Behind him hangs a poster that reads 'Clean your plate', while a waiter carries away a bin overflowing with discarded food. Write an essay of 160-200 words. In your essay, describe the drawing briefly, interpret its meaning, and give your comments.",
+      "minWords": 160,
+      "minutes": 30,
+      "guidance": [
+        "第一段用两三句话客观描述画面，不做评价。",
+        "第二段点明寓意，可由现象上升到社会或人生层面。",
+        "第三段给出自己的看法或建议，避免空喊口号。",
+        "注意段落之间使用过渡句，全文控制在 160-200 词。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-big-09",
+      "exam": "kaoyan",
+      "kind": "picture",
+      "topic": "Two Kinds of Night",
+      "topicZh": "阅读与碎片化信息",
+      "prompt": "The cartoon is divided into two halves. On the left, a young woman sits under a lamp reading a thick book, with notes spread around her. On the right, a young man lies on a sofa scrolling through his phone in the dark, his face lit only by the screen. A clock between them shows the same hour. Write an essay of 160-200 words. In your essay, describe the drawing briefly, interpret its meaning, and give your comments.",
+      "minWords": 160,
+      "minutes": 30,
+      "guidance": [
+        "第一段用两三句话客观描述画面，不做评价。",
+        "第二段点明寓意，可由现象上升到社会或人生层面。",
+        "第三段给出自己的看法或建议，避免空喊口号。",
+        "注意段落之间使用过渡句，全文控制在 160-200 词。"
+      ]
+    },
+    {
+      "id": "kaoyan-w1-big-10",
+      "exam": "kaoyan",
+      "kind": "picture",
+      "topic": "The Greenhouse and the Hillside",
+      "topicZh": "舒适区与逆境成长",
+      "prompt": "The cartoon shows two plants side by side. One grows inside a glass greenhouse, sheltered and neatly trimmed but short. The other stands outside on a windy hillside, its stem bent but its leaves reaching higher than the greenhouse roof. A gardener watches from the door of the greenhouse. Write an essay of 160-200 words. In your essay, describe the drawing briefly, interpret its meaning, and give your comments.",
+      "minWords": 160,
+      "minutes": 30,
+      "guidance": [
+        "第一段用两三句话客观描述画面，不做评价。",
+        "第二段点明寓意，可由现象上升到社会或人生层面。",
+        "第三段给出自己的看法或建议，避免空喊口号。",
+        "注意段落之间使用过渡句，全文控制在 160-200 词。"
+      ]
+    },
+    {
+      "id": "kaoyan-w2-chart-01",
+      "exam": "kaoyan",
+      "kind": "chart",
+      "topic": "Online Shoppers in China",
+      "topicZh": "中国网络购物用户数量变化",
+      "prompt": "The bar chart below shows the number of online shoppers in China from 2019 to 2023, in millions. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+      "data": "Year: 2019, 2020, 2021, 2022, 2023\nOnline shoppers (million): 710, 782, 842, 845, 915",
+      "minWords": 150,
+      "minutes": 30,
+      "guidance": [
+        "第一段用一句话概括图表主题和总体趋势，不列举数字。",
+        "主体段按时间或类别分组描述，引用关键数据作支撑。",
+        "注意最高点、最低点、转折点和组间对比，避免逐条罗列。",
+        "结尾不需要个人评论，保持客观描述。"
+      ]
+    },
+    {
+      "id": "kaoyan-w2-chart-02",
+      "exam": "kaoyan",
+      "kind": "chart",
+      "topic": "Revenue from Rural Tourism",
+      "topicZh": "中国乡村旅游收入变化",
+      "prompt": "The line chart below shows the revenue of rural tourism in China from 2018 to 2023, in billion yuan. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+      "data": "Year: 2018, 2019, 2020, 2021, 2022, 2023\nRevenue (billion yuan): 800, 850, 600, 700, 750, 1100",
+      "minWords": 150,
+      "minutes": 30,
+      "guidance": [
+        "第一段用一句话概括图表主题和总体趋势，不列举数字。",
+        "主体段按时间或类别分组描述，引用关键数据作支撑。",
+        "注意最高点、最低点、转折点和组间对比，避免逐条罗列。",
+        "结尾不需要个人评论，保持客观描述。"
+      ]
+    },
+    {
+      "id": "kaoyan-w2-chart-03",
+      "exam": "kaoyan",
+      "kind": "chart",
+      "topic": "Reasons for Pursuing a Master's Degree",
+      "topicZh": "毕业生读研的主要原因",
+      "prompt": "The pie chart below shows the main reasons why graduates in China chose to pursue a master's degree in 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+      "data": "Reasons for pursuing a master's degree (2023, % of respondents):\nTo improve job competitiveness: 45%\nGenuine interest in the subject: 25%\nTo avoid employment pressure: 20%\nOther reasons: 10%",
+      "minWords": 150,
+      "minutes": 30,
+      "guidance": [
+        "第一段用一句话概括图表主题和总体趋势，不列举数字。",
+        "主体段按时间或类别分组描述，引用关键数据作支撑。",
+        "注意最高点、最低点、转折点和组间对比，避免逐条罗列。",
+        "结尾不需要个人评论，保持客观描述。"
+      ]
+    },
+    {
+      "id": "kaoyan-w2-chart-04",
+      "exam": "kaoyan",
+      "kind": "chart",
+      "topic": "China's Energy Mix",
+      "topicZh": "中国能源消费结构变化",
+      "prompt": "The table below shows the share of different energy sources in China's total energy consumption in 2015 and 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+      "data": "Share of total energy consumption (%):\nCoal: 2015 64.0, 2023 55.0\nOil: 2015 18.0, 2023 18.0\nNatural gas: 2015 6.0, 2023 8.0\nRenewables: 2015 12.0, 2023 19.0",
+      "minWords": 150,
+      "minutes": 30,
+      "guidance": [
+        "第一段用一句话概括图表主题和总体趋势，不列举数字。",
+        "主体段按时间或类别分组描述，引用关键数据作支撑。",
+        "注意最高点、最低点、转折点和组间对比，避免逐条罗列。",
+        "结尾不需要个人评论，保持客观描述。"
+      ]
+    },
+    {
+      "id": "kaoyan-w2-chart-05",
+      "exam": "kaoyan",
+      "kind": "chart",
+      "topic": "Mobile Payment Transaction Value",
+      "topicZh": "中国移动支付交易额增长",
+      "prompt": "The bar chart below shows the total value of mobile payment transactions in China from 2018 to 2023, in trillion yuan. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+      "data": "Year: 2018, 2019, 2020, 2021, 2022, 2023\nTransaction value (trillion yuan): 277, 347, 432, 526, 610, 690",
+      "minWords": 150,
+      "minutes": 30,
+      "guidance": [
+        "第一段用一句话概括图表主题和总体趋势，不列举数字。",
+        "主体段按时间或类别分组描述，引用关键数据作支撑。",
+        "注意最高点、最低点、转折点和组间对比，避免逐条罗列。",
+        "结尾不需要个人评论，保持客观描述。"
+      ]
+    },
+    {
+      "id": "kaoyan-w2-chart-06",
+      "exam": "kaoyan",
+      "kind": "chart",
+      "topic": "Public Library Visits and Digital Borrowing",
+      "topicZh": "公共图书馆到馆人次与数字借阅量",
+      "prompt": "The line chart below shows the number of visits to public libraries and the number of digital borrowings in China from 2019 to 2023, in millions. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+      "data": "Year: 2019, 2020, 2021, 2022, 2023\nLibrary visits (million): 900, 700, 750, 800, 950\nDigital borrowings (million): 200, 350, 480, 600, 720",
+      "minWords": 150,
+      "minutes": 30,
+      "guidance": [
+        "第一段用一句话概括图表主题和总体趋势，不列举数字。",
+        "主体段按时间或类别分组描述，引用关键数据作支撑。",
+        "注意最高点、最低点、转折点和组间对比，避免逐条罗列。",
+        "结尾不需要个人评论，保持客观描述。"
+      ]
+    },
+    {
+      "id": "kaoyan-w2-chart-07",
+      "exam": "kaoyan",
+      "kind": "chart",
+      "topic": "Funding Sources for Studying Abroad",
+      "topicZh": "学生出国留学的主要资金来源",
+      "prompt": "The pie chart below shows the main sources of funding for Chinese students studying abroad in 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+      "data": "Sources of funding (2023, % of students):\nFamily savings: 55%\nScholarships: 20%\nPart-time work: 15%\nStudent loans: 10%",
+      "minWords": 150,
+      "minutes": 30,
+      "guidance": [
+        "第一段用一句话概括图表主题和总体趋势，不列举数字。",
+        "主体段按时间或类别分组描述，引用关键数据作支撑。",
+        "注意最高点、最低点、转折点和组间对比，避免逐条罗列。",
+        "结尾不需要个人评论，保持客观描述。"
+      ]
+    },
+    {
+      "id": "kaoyan-w2-chart-08",
+      "exam": "kaoyan",
+      "kind": "chart",
+      "topic": "Destinations of University Graduates",
+      "topicZh": "高校毕业生就业去向变化",
+      "prompt": "The table below shows the destinations of university graduates in China in 2019 and 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+      "data": "Destinations of graduates (%):\nState-owned enterprises: 2019 32, 2023 28\nPrivate enterprises: 2019 42, 2023 45\nFurther study: 2019 18, 2023 22\nOther destinations: 2019 8, 2023 5",
+      "minWords": 150,
+      "minutes": 30,
+      "guidance": [
+        "第一段用一句话概括图表主题和总体趋势，不列举数字。",
+        "主体段按时间或类别分组描述，引用关键数据作支撑。",
+        "注意最高点、最低点、转折点和组间对比，避免逐条罗列。",
+        "结尾不需要个人评论，保持客观描述。"
+      ]
+    }
+  ]
+}

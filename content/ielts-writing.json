@@ -1,0 +1,460 @@
+{
+  "tasks": [
+    {
+      "id": "ielts-w1-01",
+      "exam": "ielts",
+      "kind": "task1",
+      "topic": "Household internet access in four countries",
+      "topicZh": "四国家庭互联网接入率",
+      "prompt": "The line graph shows the percentage of households with internet access in four countries between 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "data": "Line graph: percentage of households with internet access, 2000-2020.\nCountry A: 2000 = 18%, 2005 = 45%, 2010 = 68%, 2015 = 82%, 2020 = 91%.\nCountry B: 2000 = 8%, 2005 = 24%, 2010 = 47%, 2015 = 66%, 2020 = 80%.\nCountry C: 2000 = 2%, 2005 = 9%, 2010 = 22%, 2015 = 41%, 2020 = 63%.\nCountry D: 2000 = 35%, 2005 = 52%, 2010 = 61%, 2015 = 69%, 2020 = 74%.",
+      "minWords": 150,
+      "minutes": 20,
+      "guidance": [
+        "Write a clear overview identifying the overall rise and the narrowing gap between countries.",
+        "Use the past simple for 2000-2020 figures and past perfect for change before a later point.",
+        "Group countries by speed of growth rather than describing each line in turn.",
+        "Quote key percentages and years selectively to support comparisons."
+      ]
+    },
+    {
+      "id": "ielts-w1-02",
+      "exam": "ielts",
+      "kind": "task1",
+      "topic": "Time spent on housework and childcare",
+      "topicZh": "家务与育儿时间",
+      "prompt": "The bar chart shows the average number of hours per week that men and women spent on housework and childcare in 1990, 2005 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "data": "Bar chart: average weekly hours.\nMen, housework: 1990 = 8, 2005 = 11, 2020 = 14.\nMen, childcare: 1990 = 2, 2005 = 5, 2020 = 8.\nWomen, housework: 1990 = 22, 2005 = 19, 2020 = 16.\nWomen, childcare: 1990 = 12, 2005 = 14, 2020 = 16.",
+      "minWords": 150,
+      "minutes": 20,
+      "guidance": [
+        "Open with an overview of the opposite trends for men and women.",
+        "Compare men and women within each year, then track the three decades.",
+        "Use past simple throughout and vary verbs such as rose, fell, declined, doubled.",
+        "Report total hours only where it strengthens the comparison."
+      ]
+    },
+    {
+      "id": "ielts-w1-03",
+      "exam": "ielts",
+      "kind": "task1",
+      "topic": "Household spending in 1985 and 2020",
+      "topicZh": "1985年与2020年家庭支出",
+      "prompt": "The pie charts compare the proportions of household spending in six categories in 1985 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "data": "Two pie charts: share of household expenditure.\n1985: food 34%, housing 22%, transport 14%, leisure 12%, clothing 9%, other 9%.\n2020: food 21%, housing 28%, transport 13%, leisure 19%, clothing 6%, other 13%.",
+      "minWords": 150,
+      "minutes": 20,
+      "guidance": [
+        "State the two or three biggest changes in an overview, not every slice.",
+        "Use proportion language: accounted for, made up, the largest share.",
+        "Compare 1985 with 2020 category by category, pairing rises with falls.",
+        "Avoid inventing reasons for the changes; describe only the data."
+      ]
+    },
+    {
+      "id": "ielts-w1-04",
+      "exam": "ielts",
+      "kind": "task1",
+      "topic": "International students in five countries",
+      "topicZh": "五国国际学生人数",
+      "prompt": "The table shows the number of international students enrolled at universities in five countries in 2010 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "data": "Table: international students (thousands).\nAustralia: 2010 = 210, 2020 = 420.\nCanada: 2010 = 240, 2020 = 530.\nGermany: 2010 = 260, 2020 = 400.\nJapan: 2010 = 140, 2020 = 210.\nUnited Kingdom: 2010 = 450, 2020 = 560.",
+      "minWords": 150,
+      "minutes": 20,
+      "guidance": [
+        "Give an overview of growth in all five countries and the changing ranking.",
+        "Select the highest and lowest figures for each year rather than listing all ten numbers.",
+        "Use comparative and superlative forms accurately, for example the largest increase.",
+        "Calculate approximate percentage growth for the most striking cases."
+      ]
+    },
+    {
+      "id": "ielts-w1-05",
+      "exam": "ielts",
+      "kind": "task1",
+      "topic": "How recycled paper is produced",
+      "topicZh": "再生纸的生产过程",
+      "prompt": "The diagram shows the seven main stages in the production of recycled paper. Summarise the information by selecting and reporting the main features.",
+      "data": "Process diagram: seven stages.\n1. Waste paper is collected from homes and offices; one batch is about 1 tonne.\n2. Paper is sorted by hand and machine; roughly 10% of material is rejected.\n3. Sorted paper is shredded into strips about 2 cm wide.\n4. Strips are pulped with water and heated to 70°C for 30 minutes.\n5. Ink is removed and the pulp is screened.\n6. Clean pulp is pressed and dried at 120°C for 10 minutes.\n7. The paper is rolled into sheets 0.1 mm thick, cut and packed.",
+      "minWords": 150,
+      "minutes": 20,
+      "guidance": [
+        "Include an overview stating the number of stages, the start and the end product.",
+        "Use the present simple passive throughout, for example is collected, is heated.",
+        "Sequence with firstly, after that, once, finally; avoid writing each stage as a separate sentence.",
+        "Mention the key quantities and temperatures where they aid accuracy."
+      ]
+    },
+    {
+      "id": "ielts-w1-06",
+      "exam": "ielts",
+      "kind": "task1",
+      "topic": "A coastal town in 2005 and 2025",
+      "topicZh": "2005年与2025年的海滨小镇",
+      "prompt": "The maps show the layout of a coastal town in 2005 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "data": "Two maps of the same coastal town.\n2005: a small fishing harbour in the north; rows of houses along the east coast; farmland in the west; one coastal road; a sandy beach in the south; population 12,000.\n2025: the harbour has been enlarged and now has a marina with 40 berths; the houses have been replaced by hotels and apartment blocks; the farmland has become a shopping centre with a 300-space car park; a ring road has been built around the town; the beach now has a promenade and two cafés; population 28,000.",
+      "minWords": 150,
+      "minutes": 20,
+      "guidance": [
+        "Provide an overview of the shift from a fishing village to a tourist resort.",
+        "Use past simple for 2005 and present perfect or present simple passive for 2025 changes.",
+        "Organise the body by area (north, east, west, south) or by type of change.",
+        "Use location language accurately: to the west of, along the coast, replaced by."
+      ]
+    },
+    {
+      "id": "ielts-w1-07",
+      "exam": "ielts",
+      "kind": "task1",
+      "topic": "Museum visitors and ticket revenue",
+      "topicZh": "博物馆参观人数与门票收入",
+      "prompt": "The bar chart shows the number of visitors to a museum from 2015 to 2022, and the line graph shows the museum's ticket revenue over the same period. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "data": "Mixed chart: visitors (thousands) and ticket revenue (millions of pounds).\n2015: visitors 120, revenue 1.8.\n2016: visitors 135, revenue 2.0.\n2017: visitors 150, revenue 2.3.\n2018: visitors 145, revenue 2.2.\n2019: visitors 160, revenue 2.6.\n2020: visitors 55, revenue 0.9.\n2021: visitors 80, revenue 1.3.\n2022: visitors 140, revenue 2.4.",
+      "minWords": 150,
+      "minutes": 20,
+      "guidance": [
+        "Note in the overview that visitors and revenue followed the same pattern.",
+        "Describe the 2019 peak and the sharp 2020 fall before the partial recovery.",
+        "Link the two measures explicitly rather than describing each chart in isolation.",
+        "Use past simple and avoid speculating about the cause of the 2020 decline."
+      ]
+    },
+    {
+      "id": "ielts-w1-08",
+      "exam": "ielts",
+      "kind": "task1",
+      "topic": "Two sites for a new sports centre",
+      "topicZh": "新体育中心的两个选址",
+      "prompt": "The table compares two possible sites for a new sports centre. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "data": "Comparison table: Site A and Site B.\nSite A (former factory, north of the river): area 2.4 hectares; distance from town centre 5 km; 1,200 homes within 1 km; derelict land; cleanup cost 2.1 million pounds; two-lane road access; no parking.\nSite B (farmland, south of the town): area 3.6 hectares; distance from town centre 2 km; 3,000 homes within 1 km; greenfield land; land cost 1.8 million pounds; four-lane road access; 250 parking spaces.\nBoth sites would house the same facilities: a 25-metre pool, two sports halls and a gym.",
+      "minWords": 150,
+      "minutes": 20,
+      "guidance": [
+        "Write an overview identifying Site B's accessibility advantage and Site A's lower land footprint.",
+        "Compare the sites on matched criteria rather than describing one site fully first.",
+        "Use comparative structures: more accessible, closer to, twice as much parking.",
+        "Report the shared facilities once and state that they are identical."
+      ]
+    },
+    {
+      "id": "ielts-w2-01",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Funding university education",
+      "topicZh": "大学教育经费",
+      "prompt": "Some people believe that university education should be free for everyone, while others think students should pay at least part of the cost. Discuss both views and give your own opinion.",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Introduce both positions and state your own view clearly.",
+        "Devote one body paragraph to each side, with a concrete example or consequence.",
+        "Explain why you find one argument stronger before concluding.",
+        "Avoid listing unrelated benefits of universities; stay on who should pay."
+      ]
+    },
+    {
+      "id": "ielts-w2-02",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Digital devices in schools",
+      "topicZh": "学校中的电子设备",
+      "prompt": "Many schools now use digital devices such as tablets instead of printed textbooks. Do the advantages of this change outweigh the disadvantages?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Give a clear verdict in the introduction and sustain it throughout.",
+        "Weigh advantages and disadvantages against each other, not in isolation.",
+        "Develop one well-explained example, such as cost or distraction, rather than many brief points.",
+        "Reserve the final paragraph for justifying your overall judgement."
+      ]
+    },
+    {
+      "id": "ielts-w2-03",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Individual responsibility for the environment",
+      "topicZh": "个人对环境责任",
+      "prompt": "Some people argue that individuals can do very little to protect the environment and that only governments and large companies can make a real difference. To what extent do you agree or disagree?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "State the extent of your agreement precisely in the introduction.",
+        "Concede one strength of the opposing view before rebutting it.",
+        "Use specific examples of laws, corporate practice or household behaviour.",
+        "Keep the conclusion consistent with the position stated at the start."
+      ]
+    },
+    {
+      "id": "ielts-w2-04",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Car-free city centres",
+      "topicZh": "城市中心无车区",
+      "prompt": "In many cities, private cars are banned from the centre. Do the benefits of such bans outweigh the drawbacks?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Decide clearly whether benefits outweigh drawbacks and say so early.",
+        "Discuss effects on air quality, business activity and access for residents.",
+        "Acknowledge groups who may be disadvantaged, such as disabled drivers.",
+        "Conclude by returning to the balance of benefits and costs."
+      ]
+    },
+    {
+      "id": "ielts-w2-05",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Artificial intelligence in decision-making",
+      "topicZh": "人工智能参与决策",
+      "prompt": "Artificial intelligence is increasingly used to make decisions in areas such as recruitment and medical diagnosis. Is this a positive or negative development?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Take a clear overall position rather than listing pros and cons equally.",
+        "Discuss both efficiency gains and risks such as bias or lack of accountability.",
+        "Use one concrete scenario to illustrate how the technology affects real people.",
+        "Address a likely counter-argument in its own paragraph."
+      ]
+    },
+    {
+      "id": "ielts-w2-06",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Social media and communication",
+      "topicZh": "社交媒体与沟通",
+      "prompt": "Some people think that social media has made people less able to communicate face to face. To what extent do you agree or disagree?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Define what you mean by face-to-face communication in the introduction.",
+        "Distinguish between different age groups or types of relationship.",
+        "Provide a real-world example of changed communication habits.",
+        "Avoid claiming that all online contact is harmful; qualify your position."
+      ]
+    },
+    {
+      "id": "ielts-w2-07",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Rising obesity rates",
+      "topicZh": "肥胖率上升",
+      "prompt": "In some countries, the number of people who are overweight is rising. What are the causes of this problem and what measures could be taken to solve it?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Identify two or three distinct causes and match each with a realistic measure.",
+        "Explain the mechanism, for example how cheap processed food affects diet.",
+        "Consider both individual and government-level solutions.",
+        "Do not simply list causes and solutions; show how the measures address them."
+      ]
+    },
+    {
+      "id": "ielts-w2-08",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Prevention versus treatment in healthcare",
+      "topicZh": "医疗中的预防与治疗",
+      "prompt": "Some people believe that preventive healthcare should receive more government funding than the treatment of existing illnesses. Discuss both views and give your own opinion.",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Present the case for prevention and the case for treatment separately.",
+        "Use examples such as vaccination, screening, cancer care or emergency services.",
+        "Explain the long-term economic argument on both sides.",
+        "Give a reasoned personal view rather than a neutral summary."
+      ]
+    },
+    {
+      "id": "ielts-w2-09",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Living alone",
+      "topicZh": "独居现象",
+      "prompt": "In many countries, people are living alone in greater numbers than in the past. Why is this happening, and is it a positive or negative development?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Address both the causes and the evaluation in roughly equal depth.",
+        "Link causes to social and economic changes such as longer lifespans or urban work.",
+        "Assess both benefits, such as independence, and risks, such as isolation.",
+        "Keep your evaluation explicit rather than implying it through examples."
+      ]
+    },
+    {
+      "id": "ielts-w2-10",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Compulsory volunteering at school",
+      "topicZh": "中学必修志愿服务",
+      "prompt": "Some people think that volunteering should be a compulsory part of secondary school. Do you agree or disagree?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "State your position on compulsion, not merely on the value of volunteering.",
+        "Discuss what students gain and what problems compulsory schemes create.",
+        "Distinguish volunteering from ordinary schoolwork and paid work.",
+        "Offer a practical alternative if you oppose compulsion."
+      ]
+    },
+    {
+      "id": "ielts-w2-11",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Remote working",
+      "topicZh": "远程办公",
+      "prompt": "Many employees now work from home for at least part of the week. Do the advantages of remote working outweigh the disadvantages?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Consider effects on productivity, commuting and team relationships.",
+        "Distinguish between jobs that can and cannot be done remotely.",
+        "Use a specific example to illustrate either a benefit or a drawback.",
+        "Reach a clear overall judgement in the conclusion."
+      ]
+    },
+    {
+      "id": "ielts-w2-12",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Career stability versus job changes",
+      "topicZh": "职业稳定与跳槽",
+      "prompt": "Some people believe that workers should stay with one employer for their whole career, while others think changing jobs regularly is better. Discuss both views and give your own opinion.",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Explain the reasoning behind loyalty to one employer and behind frequent moves.",
+        "Consider skills, job security and personal circumstances.",
+        "Avoid assuming one pattern suits every industry.",
+        "State and justify your own preference in the final paragraph."
+      ]
+    },
+    {
+      "id": "ielts-w2-13",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "News on social media",
+      "topicZh": "社交媒体上的新闻",
+      "prompt": "News organisations increasingly rely on social media to reach their audiences. Is this a positive or negative development?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Take a clear position on the shift to social platforms.",
+        "Discuss reach and speed alongside accuracy and editorial control.",
+        "Refer to algorithms or short formats only if you explain their effect.",
+        "Acknowledge one benefit of the change before your conclusion."
+      ]
+    },
+    {
+      "id": "ielts-w2-14",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Globalisation and local culture",
+      "topicZh": "全球化与本土文化",
+      "prompt": "Some people believe that globalisation has made local cultures weaker. To what extent do you agree or disagree?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Clarify what you mean by local culture, for example language, food or festivals.",
+        "Consider both homogenisation and cultural exchange or revival.",
+        "Use a specific example from a country or community.",
+        "Qualify your agreement rather than treating all cultural change as loss."
+      ]
+    },
+    {
+      "id": "ielts-w2-15",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Global supply chains",
+      "topicZh": "全球供应链",
+      "prompt": "The production of goods is increasingly spread across several countries. What are the advantages and disadvantages of this trend?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Explain advantages such as cost and specialisation, and disadvantages such as fragility.",
+        "Use a concrete product to show how several countries contribute.",
+        "Balance the two sides without turning the essay into a list.",
+        "Conclude with a judgement on whether the trend is broadly beneficial."
+      ]
+    },
+    {
+      "id": "ielts-w2-16",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Prisons: punishment or rehabilitation",
+      "topicZh": "监狱：惩罚还是改造",
+      "prompt": "Some people think that the main purpose of prison should be punishment, while others believe it should be rehabilitation. Discuss both views and give your opinion.",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Explain the rationale for punishment and for rehabilitation separately.",
+        "Discuss reoffending rates or the effect on victims where relevant.",
+        "Avoid extreme claims about what all prisoners deserve.",
+        "Make your own position explicit and consistent."
+      ]
+    },
+    {
+      "id": "ielts-w2-17",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Public surveillance cameras",
+      "topicZh": "公共监控摄像头",
+      "prompt": "In some cities, surveillance cameras are installed in most public places. Do the benefits of this measure outweigh the disadvantages?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Weigh crime prevention and investigation against privacy and trust.",
+        "Consider whether cameras actually reduce crime or mainly aid detection.",
+        "Mention safeguards such as limited access to footage.",
+        "State a clear overall judgement in the conclusion."
+      ]
+    },
+    {
+      "id": "ielts-w2-18",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Preserving historic buildings",
+      "topicZh": "保护历史建筑",
+      "prompt": "Some people think that governments should spend money on preserving historic buildings, while others believe the money would be better spent on new housing. Discuss both views and give your own opinion.",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Discuss cultural and economic arguments for preservation.",
+        "Discuss housing needs and opportunity costs of restoration.",
+        "Use examples such as tourism revenue or repair costs.",
+        "Explain how you would balance the two priorities."
+      ]
+    },
+    {
+      "id": "ielts-w2-19",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Public transport versus new roads",
+      "topicZh": "公共交通与新建道路",
+      "prompt": "Some people believe that governments should spend more on public transport than on new roads. To what extent do you agree or disagree?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "State how far you agree and define the context, such as cities or rural areas.",
+        "Compare congestion, emissions, cost and accessibility.",
+        "Consider whether new roads can ever reduce congestion in the long term.",
+        "End with a clear recommendation tied to your argument."
+      ]
+    },
+    {
+      "id": "ielts-w2-20",
+      "exam": "ielts",
+      "kind": "task2",
+      "topic": "Unaffordable housing in cities",
+      "topicZh": "城市住房负担问题",
+      "prompt": "In many cities, housing has become unaffordable for young people. What problems does this cause, and what solutions can you suggest?",
+      "minWords": 250,
+      "minutes": 40,
+      "guidance": [
+        "Identify two or three concrete consequences for young people and cities.",
+        "Propose solutions that plausibly address those specific problems.",
+        "Consider supply, regulation and transport links rather than one single fix.",
+        "Use a real or realistic example to support one solution."
+      ]
+    }
+  ]
+}

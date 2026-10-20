@@ -1,0 +1,441 @@
+{
+  "rubrics": [
+    {
+      "exam": "ielts",
+      "skill": "speaking",
+      "scale": {
+        "min": 0,
+        "max": 9,
+        "unit": "band"
+      },
+      "notes": "Four equally weighted criteria. Round the average to the nearest half band. Do not reward memorised answers.",
+      "criteria": [
+        {
+          "key": "fc",
+          "label": "Fluency and Coherence",
+          "labelZh": "流利与连贯",
+          "bands": {
+            "4": "Cannot keep going without long pauses; ideas are linked mainly by repetition and simple connectors; coherence breaks down under strain.",
+            "5": "Usually keeps going but relies on repetition and self-correction; overuses a few connectives; some ideas are left unfinished.",
+            "6": "Speaks at length with some hesitation that does not impede meaning; uses a range of connectives but not always appropriately; ideas are generally ordered.",
+            "7": "Speaks fluently with only occasional repetition or self-correction; hesitation is content-related, not language-related; coherence is maintained with flexible linking.",
+            "8": "Speaks fluently and coherently with only very occasional hesitation; topic development is fully sustained and linking is natural.",
+            "9": "Fully fluent with natural, effortless coherence; hesitation is rare and used for effect; no noticeable effort."
+          }
+        },
+        {
+          "key": "lr",
+          "label": "Lexical Resource",
+          "labelZh": "词汇资源",
+          "bands": {
+            "4": "Vocabulary is adequate only for familiar topics; frequent word-choice errors; paraphrasing is rarely attempted.",
+            "5": "Manages familiar topics with limited flexibility; noticeable errors in word choice and collocation; paraphrasing is attempted with mixed success.",
+            "6": "Has enough vocabulary to discuss topics at length; uses some less common words with occasional inaccuracy; generally paraphrases successfully.",
+            "7": "Uses vocabulary flexibly and precisely on a range of topics; some idiomatic language; occasional slips that do not impede communication.",
+            "8": "Uses a wide, precise and natural vocabulary; skilful paraphrasing; rare errors only.",
+            "9": "Uses a fully precise, idiomatic and flexible vocabulary with natural collocation throughout."
+          }
+        },
+        {
+          "key": "gra",
+          "label": "Grammatical Range and Accuracy",
+          "labelZh": "语法多样性与准确性",
+          "bands": {
+            "4": "Produces basic sentence forms with frequent errors; complex structures are rare and usually inaccurate.",
+            "5": "Uses a limited range of structures; complex sentences are attempted but often contain errors that can cause misunderstanding.",
+            "6": "Uses a mix of simple and complex structures with some errors; errors rarely cause misunderstanding.",
+            "7": "Uses a range of complex structures with some flexibility; frequent error-free sentences; a few persistent errors remain.",
+            "8": "Uses a wide range of structures accurately; occasional slips only; most sentences are error-free.",
+            "9": "Uses a full range of structures naturally and accurately, with only slips characteristic of native speech."
+          }
+        },
+        {
+          "key": "p",
+          "label": "Pronunciation",
+          "labelZh": "发音",
+          "bands": {
+            "4": "Pronunciation features are limited; frequent mispronunciation causes strain for the listener; little use of stress or intonation.",
+            "5": "Some features are controlled but errors are frequent; listener effort is required; stress and intonation are basic.",
+            "6": "Generally intelligible; some effective use of stress and intonation; occasional mispronunciation requires listener effort.",
+            "7": "Clear, natural pronunciation with effective stress and intonation; occasional lapses do not impede understanding.",
+            "8": "Easy to understand throughout; flexible use of stress, rhythm and intonation; minor accent features only.",
+            "9": "Fully intelligible with native-like control of stress, rhythm and intonation."
+          }
+        }
+      ]
+    },
+    {
+      "exam": "ielts",
+      "skill": "writing",
+      "task": "task1",
+      "scale": {
+        "min": 0,
+        "max": 9,
+        "unit": "band"
+      },
+      "notes": "Task 1 requires a clear overview, accurate data selection and comparison. No conclusion or opinion is required. Under 150 words is penalised.",
+      "criteria": [
+        {
+          "key": "ta",
+          "label": "Task Achievement",
+          "labelZh": "任务完成",
+          "bands": {
+            "4": "Attempts the task but does not cover the main features; data may be inaccurate or missing; no clear overview.",
+            "5": "Recounts some key features but mechanically; overview may be unclear or absent; some data errors.",
+            "6": "Covers the main features with an overview; some details are irrelevant or inaccurate; comparison is present but limited.",
+            "7": "Clearly presents an overview and selects key features accurately; comparisons are well chosen; minor omissions only.",
+            "8": "Fully satisfies the task with a clear overview and well-selected, accurate data; skilful comparison.",
+            "9": "Fully satisfies all requirements with a fully developed, precise and well-selected account."
+          }
+        },
+        {
+          "key": "cc",
+          "label": "Coherence and Cohesion",
+          "labelZh": "连贯与衔接",
+          "bands": {
+            "4": "Organisation is unclear; cohesive devices are limited or inaccurate; paragraphing is absent or unhelpful.",
+            "5": "Some organisation but links are mechanical; paragraphing may be inadequate; referencing is sometimes unclear.",
+            "6": "Logically organised with clear paragraphs; cohesive devices are used but sometimes mechanically; referencing is generally clear.",
+            "7": "Logically sequenced with clear progression; a range of cohesive devices is used flexibly; paragraphing is effective.",
+            "8": "Information is sequenced skilfully; cohesion is natural and unobtrusive; paragraphing is fully effective.",
+            "9": "Cohesion is seamless and fully controlled; paragraphing and referencing are entirely natural."
+          }
+        },
+        {
+          "key": "lr",
+          "label": "Lexical Resource",
+          "labelZh": "词汇资源",
+          "bands": {
+            "4": "Limited vocabulary; frequent spelling and word-formation errors; repetition is noticeable.",
+            "5": "Adequate vocabulary for the task but limited range; noticeable errors in spelling and collocation.",
+            "6": "Adequate range with some less common vocabulary; occasional errors in spelling and word choice that do not impede meaning.",
+            "7": "A sufficient range of vocabulary with some flexibility and precision; occasional errors in word choice, spelling or collocation.",
+            "8": "A wide range used fluently and precisely; rare errors only.",
+            "9": "A full, precise and natural range with only negligible slips."
+          }
+        },
+        {
+          "key": "gra",
+          "label": "Grammatical Range and Accuracy",
+          "labelZh": "语法多样性与准确性",
+          "bands": {
+            "4": "Limited structures with frequent errors that can distort meaning; punctuation is often faulty.",
+            "5": "Limited range; complex sentences are attempted but often inaccurate; errors can cause some difficulty.",
+            "6": "A mix of simple and complex forms; some errors but meaning is rarely affected; punctuation is generally controlled.",
+            "7": "A variety of complex structures with frequent error-free sentences; a few errors remain; good control of punctuation.",
+            "8": "A wide range of structures used accurately; occasional slips only; punctuation is well controlled.",
+            "9": "A full range of structures with near-perfect accuracy and punctuation."
+          }
+        }
+      ]
+    },
+    {
+      "exam": "ielts",
+      "skill": "writing",
+      "task": "task2",
+      "scale": {
+        "min": 0,
+        "max": 9,
+        "unit": "band"
+      },
+      "notes": "Task 2 requires a clear position, developed ideas and a conclusion. Under 250 words is penalised. Memorised templates should not be rewarded.",
+      "criteria": [
+        {
+          "key": "tr",
+          "label": "Task Response",
+          "labelZh": "任务回应",
+          "bands": {
+            "4": "Addresses the task only minimally; position is unclear; ideas are irrelevant or repetitive; may be under length.",
+            "5": "Addresses the task only partially; position is present but underdeveloped; ideas are limited or inadequately supported.",
+            "6": "Addresses all parts of the task; a relevant position is presented but some ideas are not fully developed; conclusions may be unclear.",
+            "7": "Addresses all parts with a clear position throughout; main ideas are extended and supported; a relevant conclusion is drawn.",
+            "8": "Fully addresses the task with a well-developed position; ideas are relevant, extended and supported; conclusion is strong.",
+            "9": "Fully explores all parts with a fully developed, nuanced position and convincing support."
+          }
+        },
+        {
+          "key": "cc",
+          "label": "Coherence and Cohesion",
+          "labelZh": "连贯与衔接",
+          "bands": {
+            "4": "Ideas are not arranged logically; cohesive devices are limited or inaccurate; paragraphing is absent.",
+            "5": "Some organisation but progression is unclear; cohesive devices are mechanical; paragraphing may be confusing.",
+            "6": "A clear overall progression; cohesive devices are used but sometimes mechanically; paragraphing is generally clear.",
+            "7": "Logically organised with clear progression; a range of cohesive devices is used flexibly; each paragraph has a clear central topic.",
+            "8": "Ideas are sequenced skilfully; cohesion is natural; paragraphing is fully effective.",
+            "9": "Cohesion is seamless and fully controlled throughout."
+          }
+        },
+        {
+          "key": "lr",
+          "label": "Lexical Resource",
+          "labelZh": "词汇资源",
+          "bands": {
+            "4": "Limited vocabulary; frequent errors in spelling and word choice; repetition impedes meaning.",
+            "5": "Limited range; noticeable errors in word choice, spelling and collocation; paraphrasing is limited.",
+            "6": "Adequate range with some less common vocabulary; occasional errors that do not impede communication.",
+            "7": "A sufficient range used flexibly and precisely; some idiomatic language; occasional slips only.",
+            "8": "A wide range used fluently and precisely; rare errors; effective paraphrasing.",
+            "9": "A full, precise and natural range with only negligible slips."
+          }
+        },
+        {
+          "key": "gra",
+          "label": "Grammatical Range and Accuracy",
+          "labelZh": "语法多样性与准确性",
+          "bands": {
+            "4": "Basic structures with frequent errors; complex sentences are rare; punctuation is often faulty.",
+            "5": "Limited range; complex forms are attempted but often inaccurate; errors can cause difficulty.",
+            "6": "A mix of simple and complex forms; some errors but meaning is rarely affected.",
+            "7": "A variety of complex structures with frequent error-free sentences; a few errors remain.",
+            "8": "A wide range of structures used accurately; occasional slips only.",
+            "9": "A full range of structures with near-perfect accuracy."
+          }
+        }
+      ]
+    },
+    {
+      "exam": "toefl",
+      "skill": "speaking",
+      "scale": {
+        "min": 1,
+        "max": 6,
+        "unit": "score"
+      },
+      "notes": "2026 TOEFL iBT Speaking uses a 1-6 section scale. Listen and Repeat and Take an Interview items are each worth up to 5 points. Pronunciation cannot be judged from a transcript, so the app's text-only estimate excludes delivery.",
+      "criteria": [
+        {
+          "key": "delivery",
+          "label": "Delivery",
+          "labelZh": "表达",
+          "bands": {
+            "1": "Speech is largely unintelligible or absent.",
+            "2": "Frequent fluency and pronunciation problems make meaning hard to follow.",
+            "3": "Generally intelligible with noticeable pacing or pronunciation problems that require listener effort.",
+            "4": "Clear and reasonably fluent, with minor delivery problems that do not impede meaning.",
+            "5": "Clear, fluent and natural, with effective pacing and intonation."
+          }
+        },
+        {
+          "key": "language",
+          "label": "Language Use",
+          "labelZh": "语言运用",
+          "bands": {
+            "1": "Very limited grammar and vocabulary; frequent errors obscure meaning.",
+            "2": "Basic grammar and vocabulary; errors are noticeable and sometimes impede meaning.",
+            "3": "Effective grammar and vocabulary with some errors; meaning is clear.",
+            "4": "Accurate, varied grammar and vocabulary appropriate to the task.",
+            "5": "Precise, varied and accurate language throughout."
+          }
+        },
+        {
+          "key": "development",
+          "label": "Topic Development",
+          "labelZh": "内容展开",
+          "bands": {
+            "1": "Minimal content; ideas are unclear or unrelated.",
+            "2": "Some relevant ideas but limited development or weak connection to the task.",
+            "3": "Relevant, reasonably developed ideas with adequate support.",
+            "4": "Well-developed, organised ideas that address every part of the task.",
+            "5": "Fully developed, well-organised and precise content."
+          }
+        }
+      ]
+    },
+    {
+      "exam": "toefl",
+      "skill": "writing",
+      "scale": {
+        "min": 1,
+        "max": 6,
+        "unit": "score"
+      },
+      "notes": "2026 TOEFL iBT Writing uses a 1-6 section scale. Build a Sentence items are worth 1 point each; Write an Email and Write for an Academic Discussion are worth up to 5 points each.",
+      "criteria": [
+        {
+          "key": "task",
+          "label": "Task Fulfilment",
+          "labelZh": "任务完成",
+          "bands": {
+            "1": "Minimal or irrelevant response; the task is not addressed.",
+            "2": "Partly relevant content with weak or missing support.",
+            "3": "Relevant content with adequate but uneven development.",
+            "4": "Well-developed content with clear support and accurate task coverage.",
+            "5": "Fully developed, precise and well-supported content."
+          }
+        },
+        {
+          "key": "organization",
+          "label": "Organization",
+          "labelZh": "组织结构",
+          "bands": {
+            "1": "No discernible organisation.",
+            "2": "Some organisation but weak progression or paragraphing.",
+            "3": "Generally organised with clear paragraphs and some effective transitions.",
+            "4": "Clearly organised with logical progression and effective transitions.",
+            "5": "Skilfully organised with seamless progression."
+          }
+        },
+        {
+          "key": "language",
+          "label": "Language Use",
+          "labelZh": "语言运用",
+          "bands": {
+            "1": "Very limited range with frequent errors that obscure meaning.",
+            "2": "Limited range with noticeable errors that sometimes impede meaning.",
+            "3": "Adequate range with some errors; meaning is generally clear.",
+            "4": "Effective range with few errors; clear and varied sentences.",
+            "5": "Precise, varied and accurate language throughout."
+          }
+        }
+      ]
+    },
+    {
+      "exam": "kaoyan",
+      "skill": "writing",
+      "task": "letter",
+      "scale": {
+        "min": 0,
+        "max": 10,
+        "unit": "score"
+      },
+      "notes": "英语一/二小作文按 10 分制。重点看格式、要点覆盖、语气得体与语言准确。",
+      "criteria": [
+        {
+          "key": "task",
+          "label": "Task Fulfilment",
+          "labelZh": "内容要点",
+          "bands": {
+            "3": "格式错误，要点大量缺失，难以达到交际目的。",
+            "5": "格式基本正确，遗漏主要要点，语言错误较多。",
+            "7": "格式正确，覆盖主要要点，表达基本得体，有少量语言错误。",
+            "9": "格式规范，要点完整，语气得体，语言准确。",
+            "10": "格式规范，要点完整且有细节支撑，语气得体，语言准确丰富。"
+          }
+        },
+        {
+          "key": "organization",
+          "label": "Organization",
+          "labelZh": "结构衔接",
+          "bands": {
+            "3": "句子之间缺乏衔接，结构混乱。",
+            "5": "有一定结构，但衔接生硬，段落不清。",
+            "7": "结构清晰，衔接自然，段落合理。",
+            "9": "结构严谨，衔接流畅。",
+            "10": "结构严谨，层次分明，衔接自然。"
+          }
+        },
+        {
+          "key": "language",
+          "label": "Language",
+          "labelZh": "语言表达",
+          "bands": {
+            "3": "语法错误频繁，影响理解。",
+            "5": "语法和词汇有限，错误较多但基本可读。",
+            "7": "语法基本正确，词汇较丰富，偶有错误。",
+            "9": "语法准确，词汇丰富，句式多样。",
+            "10": "语法准确，词汇丰富地道，句式灵活。"
+          }
+        }
+      ]
+    },
+    {
+      "exam": "kaoyan",
+      "skill": "writing",
+      "task": "picture",
+      "scale": {
+        "min": 0,
+        "max": 20,
+        "unit": "score"
+      },
+      "notes": "英语一大作文按 20 分制。必须描述图画、解释寓意并给出评论。",
+      "criteria": [
+        {
+          "key": "task",
+          "label": "Task Fulfilment",
+          "labelZh": "内容要点",
+          "bands": {
+            "6": "未描述图画或严重偏题，无明确寓意。",
+            "10": "描述不完整，寓意不清，缺少评论。",
+            "14": "描述了图画并点出寓意，评论较简单。",
+            "17": "描述准确，寓意明确，论证较充分。",
+            "20": "描述准确生动，寓意深刻，论证充分有力。"
+          }
+        },
+        {
+          "key": "organization",
+          "label": "Organization",
+          "labelZh": "结构衔接",
+          "bands": {
+            "6": "结构混乱，缺少段落划分。",
+            "10": "结构松散，衔接手段有限。",
+            "14": "结构完整，段落清晰，衔接基本自然。",
+            "17": "结构严谨，层次分明，衔接自然。",
+            "20": "结构严谨，层层递进，衔接流畅。"
+          }
+        },
+        {
+          "key": "language",
+          "label": "Language",
+          "labelZh": "语言表达",
+          "bands": {
+            "6": "语法错误频繁，词汇贫乏，影响理解。",
+            "10": "语法错误较多，词汇有限。",
+            "14": "语法基本正确，词汇较丰富。",
+            "17": "语法准确，词汇丰富，句式多样。",
+            "20": "语法准确，词汇丰富地道，句式灵活多变。"
+          }
+        }
+      ]
+    },
+    {
+      "exam": "kaoyan",
+      "skill": "writing",
+      "task": "chart",
+      "scale": {
+        "min": 0,
+        "max": 15,
+        "unit": "score"
+      },
+      "notes": "英语二大作文按 15 分制。必须描述图表、分析原因并给出结论。",
+      "criteria": [
+        {
+          "key": "task",
+          "label": "Task Fulfilment",
+          "labelZh": "内容要点",
+          "bands": {
+            "4": "未描述图表或数据严重错误，无分析。",
+            "8": "描述不完整，原因分析薄弱。",
+            "11": "描述了主要数据，有原因分析，结论简单。",
+            "13": "数据描述准确，分析合理，结论明确。",
+            "15": "数据描述准确全面，分析深入，结论有说服力。"
+          }
+        },
+        {
+          "key": "organization",
+          "label": "Organization",
+          "labelZh": "结构衔接",
+          "bands": {
+            "4": "结构混乱，缺少衔接。",
+            "8": "结构松散，衔接生硬。",
+            "11": "结构完整，段落清晰。",
+            "13": "结构严谨，衔接自然。",
+            "15": "结构严谨，层次分明，衔接流畅。"
+          }
+        },
+        {
+          "key": "language",
+          "label": "Language",
+          "labelZh": "语言表达",
+          "bands": {
+            "4": "语法错误频繁，影响理解。",
+            "8": "语法错误较多，词汇有限。",
+            "11": "语法基本正确，词汇较丰富。",
+            "13": "语法准确，词汇丰富。",
+            "15": "语法准确，词汇丰富地道，句式多样。"
+          }
+        }
+      ]
+    }
+  ]
+}

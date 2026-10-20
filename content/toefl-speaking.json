@@ -1,0 +1,213 @@
+{
+  "sets": [
+    {
+      "id": "toefl-lr-01",
+      "kind": "listen-repeat",
+      "topic": "Campus life",
+      "topicZh": "校园生活",
+      "prepSec": 0,
+      "responseSec": 15,
+      "guidance": [
+        "Listen once, then repeat immediately. Do not read the sentence before it plays.",
+        "Match the sentence stress and linking, not just the words.",
+        "The app scores word coverage; pronunciation is not machine-scored."
+      ],
+      "items": [
+        { "id": "lr-01-1", "text": "The library closes at ten on weekdays.", "tip": "Stress library and ten." },
+        { "id": "lr-01-2", "text": "Students can borrow up to five books at a time.", "tip": "Link up to and at a time." },
+        { "id": "lr-01-3", "text": "The new science building is next to the Student Union.", "tip": "Keep a steady rhythm across the place names." },
+        { "id": "lr-01-4", "text": "If you lose your student card, report it to the front desk immediately.", "tip": "Pause briefly after the if-clause." },
+        { "id": "lr-01-5", "text": "The professor asked us to submit our essays before Friday afternoon.", "tip": "Stress submit and Friday." },
+        { "id": "lr-01-6", "text": "Although the lecture was difficult, most students found the examples helpful.", "tip": "Contrast the two clauses with a small pause." },
+        { "id": "lr-01-7", "text": "The university is planning to extend the library's opening hours during the exam period.", "tip": "Keep the long noun phrase together." }
+      ]
+    },
+    {
+      "id": "toefl-lr-02",
+      "kind": "listen-repeat",
+      "topic": "Academic study",
+      "topicZh": "学术学习",
+      "prepSec": 0,
+      "responseSec": 15,
+      "guidance": [
+        "Listen for meaning first, then reproduce the sentence exactly.",
+        "If you miss a word, keep going instead of restarting."
+      ],
+      "items": [
+        { "id": "lr-02-1", "text": "The experiment produced results that surprised the research team.", "tip": "Stress surprised." },
+        { "id": "lr-02-2", "text": "Researchers collected data from more than two hundred participants.", "tip": "Link data from and more than." },
+        { "id": "lr-02-3", "text": "The article argues that social media has changed the way people read news.", "tip": "Keep the that-clause flowing." },
+        { "id": "lr-02-4", "text": "Students who review their notes regularly tend to perform better in exams.", "tip": "Stress regularly and better." },
+        { "id": "lr-02-5", "text": "The study found a strong connection between sleep quality and academic performance.", "tip": "Link between and sleep; stress connection." },
+        { "id": "lr-02-6", "text": "Although the theory was widely accepted, recent evidence has raised serious doubts about it.", "tip": "Pause after accepted." },
+        { "id": "lr-02-7", "text": "The report recommends that universities provide more support for first-year students who live off campus.", "tip": "Keep the relative clause attached to students." }
+      ]
+    },
+    {
+      "id": "toefl-lr-03",
+      "kind": "listen-repeat",
+      "topic": "Environment",
+      "topicZh": "环境",
+      "prepSec": 0,
+      "responseSec": 15,
+      "guidance": ["Do not paraphrase. Repeat the exact wording.", "Keep the final consonants clear."],
+      "items": [
+        { "id": "lr-03-1", "text": "The city plans to plant more trees along the river.", "tip": "Link plant more and along the." },
+        { "id": "lr-03-2", "text": "Recycling is collected every Tuesday morning.", "tip": "Stress Tuesday." },
+        { "id": "lr-03-3", "text": "Many residents are concerned about the amount of traffic in the area.", "tip": "Stress concerned and amount." },
+        { "id": "lr-03-4", "text": "The government has introduced new rules to reduce plastic waste.", "tip": "Keep has introduced contracted." },
+        { "id": "lr-03-5", "text": "Scientists warn that rising temperatures could affect food production in many regions.", "tip": "Stress rising and affect." },
+        { "id": "lr-03-6", "text": "If people use public transport more often, air quality in the city centre will improve.", "tip": "Pause after often." },
+        { "id": "lr-03-7", "text": "The conference will focus on practical solutions for reducing carbon emissions in urban areas.", "tip": "Keep the long noun phrase together." }
+      ]
+    },
+    {
+      "id": "toefl-lr-04",
+      "kind": "listen-repeat",
+      "topic": "Work",
+      "topicZh": "工作",
+      "prepSec": 0,
+      "responseSec": 15,
+      "guidance": ["Aim for natural intonation, not robot-perfect words.", "Keep the sentence stress on the message words."],
+      "items": [
+        { "id": "lr-04-1", "text": "The meeting has been moved to Thursday afternoon.", "tip": "Stress moved and Thursday." },
+        { "id": "lr-04-2", "text": "Please send the report to the manager by the end of the day.", "tip": "Link end of the." },
+        { "id": "lr-04-3", "text": "The company is looking for someone with experience in customer service.", "tip": "Stress experience." },
+        { "id": "lr-04-4", "text": "Employees are encouraged to discuss their ideas with their team leaders.", "tip": "Keep the two their clear." },
+        { "id": "lr-04-5", "text": "The training session will cover the new software that the company has just introduced.", "tip": "Pause before that." },
+        { "id": "lr-04-6", "text": "Although the deadline was tight, the team managed to finish the project on time.", "tip": "Contrast the clauses." },
+        { "id": "lr-04-7", "text": "The survey suggests that flexible working arrangements can improve employee satisfaction and productivity.", "tip": "Stress flexible and productivity." }
+      ]
+    },
+    {
+      "id": "toefl-lr-05",
+      "kind": "listen-repeat",
+      "topic": "Travel",
+      "topicZh": "旅行",
+      "prepSec": 0,
+      "responseSec": 15,
+      "guidance": ["Listen for numbers and place names.", "Repeat without adding or dropping articles."],
+      "items": [
+        { "id": "lr-05-1", "text": "The train leaves from platform three at nine fifteen.", "tip": "Stress platform three and nine fifteen." },
+        { "id": "lr-05-2", "text": "You need to show your passport before boarding the plane.", "tip": "Link before boarding." },
+        { "id": "lr-05-3", "text": "The hotel is a short walk from the main train station.", "tip": "Stress short walk." },
+        { "id": "lr-05-4", "text": "Visitors are advised to book their tickets in advance during the summer.", "tip": "Stress advised and in advance." },
+        { "id": "lr-05-5", "text": "The museum offers free guided tours every morning except on public holidays.", "tip": "Pause before except." },
+        { "id": "lr-05-6", "text": "If you arrive after midnight, you will need to use the side entrance of the building.", "tip": "Pause after midnight." },
+        { "id": "lr-05-7", "text": "The tourism office has published a new map showing the most popular walking routes in the old town.", "tip": "Keep the participle phrase together." }
+      ]
+    },
+    {
+      "id": "toefl-lr-06",
+      "kind": "listen-repeat",
+      "topic": "Technology",
+      "topicZh": "科技",
+      "prepSec": 0,
+      "responseSec": 15,
+      "guidance": ["Keep technical words clear.", "Match the speaker's sentence stress."],
+      "items": [
+        { "id": "lr-06-1", "text": "Please turn off your phone during the presentation.", "tip": "Stress turn off." },
+        { "id": "lr-06-2", "text": "The new app allows users to track their daily exercise.", "tip": "Link allows users." },
+        { "id": "lr-06-3", "text": "Many students now use online platforms to submit their assignments.", "tip": "Stress online platforms." },
+        { "id": "lr-06-4", "text": "The company has updated its website to make it easier to use.", "tip": "Stress easier." },
+        { "id": "lr-06-5", "text": "Researchers are developing sensors that can monitor air quality in real time.", "tip": "Pause before that." },
+        { "id": "lr-06-6", "text": "Although the device is small, it can store a large amount of information.", "tip": "Contrast small and large." },
+        { "id": "lr-06-7", "text": "The workshop will explain how artificial intelligence is being used in medical research.", "tip": "Stress artificial intelligence." }
+      ]
+    },
+    {
+      "id": "toefl-int-01",
+      "kind": "interview",
+      "topic": "Study habits",
+      "topicZh": "学习习惯",
+      "prepSec": 0,
+      "responseSec": 45,
+      "guidance": [
+        "Answer spontaneously; there is no preparation time.",
+        "Speak for most of the 45 seconds and support your answer with a reason or example.",
+        "The tutor will not give feedback during the interview."
+      ],
+      "items": [
+        { "id": "int-01-1", "text": "How do you usually prepare for an important exam?" },
+        { "id": "int-01-2", "text": "Do you prefer studying alone or with other people? Why?" },
+        { "id": "int-01-3", "text": "What do you do when you lose concentration?" },
+        { "id": "int-01-4", "text": "How has your approach to studying changed since you started university?" }
+      ]
+    },
+    {
+      "id": "toefl-int-02",
+      "kind": "interview",
+      "topic": "Campus life",
+      "topicZh": "校园生活",
+      "prepSec": 0,
+      "responseSec": 45,
+      "guidance": ["Give a direct answer first, then elaborate.", "Use specific details from your own experience."],
+      "items": [
+        { "id": "int-02-1", "text": "What do you enjoy most about life at your university?" },
+        { "id": "int-02-2", "text": "How do you usually spend your time between classes?" },
+        { "id": "int-02-3", "text": "What clubs or activities would you like to join?" },
+        { "id": "int-02-4", "text": "What advice would you give to a new student?" }
+      ]
+    },
+    {
+      "id": "toefl-int-03",
+      "kind": "interview",
+      "topic": "Technology",
+      "topicZh": "科技",
+      "prepSec": 0,
+      "responseSec": 45,
+      "guidance": ["Explain how you use technology, not just whether you like it.", "Include one concrete example."],
+      "items": [
+        { "id": "int-03-1", "text": "How often do you use your phone for studying?" },
+        { "id": "int-03-2", "text": "What technology do you find most useful in your daily life?" },
+        { "id": "int-03-3", "text": "Do you think students rely too much on the internet? Why?" },
+        { "id": "int-03-4", "text": "How might technology change the way people learn in the future?" }
+      ]
+    },
+    {
+      "id": "toefl-int-04",
+      "kind": "interview",
+      "topic": "Work",
+      "topicZh": "工作",
+      "prepSec": 0,
+      "responseSec": 45,
+      "guidance": ["Connect your skills to the job you want.", "Give a reason for each preference."],
+      "items": [
+        { "id": "int-04-1", "text": "What kind of work would you like to do after you graduate?" },
+        { "id": "int-04-2", "text": "What skills are most important for that kind of work?" },
+        { "id": "int-04-3", "text": "Would you prefer to work in a team or independently?" },
+        { "id": "int-04-4", "text": "How do you deal with stress at work or school?" }
+      ]
+    },
+    {
+      "id": "toefl-int-05",
+      "kind": "interview",
+      "topic": "Travel",
+      "topicZh": "旅行",
+      "prepSec": 0,
+      "responseSec": 45,
+      "guidance": ["Use past tense for experiences and would for preferences.", "Add a specific place or detail."],
+      "items": [
+        { "id": "int-05-1", "text": "What is the most interesting place you have visited?" },
+        { "id": "int-05-2", "text": "Do you prefer to travel alone or with others?" },
+        { "id": "int-05-3", "text": "What do you usually do to prepare for a trip?" },
+        { "id": "int-05-4", "text": "How has travel changed since you were a child?" }
+      ]
+    },
+    {
+      "id": "toefl-int-06",
+      "kind": "interview",
+      "topic": "Environment",
+      "topicZh": "环境",
+      "prepSec": 0,
+      "responseSec": 45,
+      "guidance": ["Distinguish individual actions from government policy.", "Give one example from your own city."],
+      "items": [
+        { "id": "int-06-1", "text": "What do you do in your daily life to protect the environment?" },
+        { "id": "int-06-2", "text": "Do you think individuals or governments should take more responsibility for the environment?" },
+        { "id": "int-06-3", "text": "What environmental problem concerns you most?" },
+        { "id": "int-06-4", "text": "How could your city become more environmentally friendly?" }
+      ]
+    }
+  ]
+}

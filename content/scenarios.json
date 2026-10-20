@@ -1,0 +1,232 @@
+{
+  "scenarios": [
+    {
+      "id": "sc-01",
+      "title": "Coffee Before Work",
+      "titleZh": "上班前的咖啡",
+      "level": "A2",
+      "role": "a barista at a busy city-centre café",
+      "setting": "The counter of a café at 8:30 on a weekday morning. The learner is ordering breakfast before work and the queue is short but moving.",
+      "goal": "Order a coffee and something to eat, ask about a milk alternative, and confirm the total price before paying.",
+      "usefulLanguage": [
+        "Could I get a medium latte, please?",
+        "Do you have oat milk?",
+        "What's in the breakfast wrap?",
+        "Can I have that to take away?",
+        "How much is that altogether?",
+        "Sorry, could you say that again?",
+        "That's everything, thanks."
+      ],
+      "opening": "Morning! What can I get for you today?"
+    },
+    {
+      "id": "sc-02",
+      "title": "Hotel Check-in",
+      "titleZh": "酒店入住",
+      "level": "A2",
+      "role": "a receptionist at a small city hotel",
+      "setting": "The hotel lobby at three in the afternoon. The learner has a booking for two nights and is tired after a long journey.",
+      "goal": "Check in, confirm how many nights are booked, and ask about breakfast times and the wifi password.",
+      "usefulLanguage": [
+        "I have a reservation under the name Chen.",
+        "Is breakfast included in the price?",
+        "What time does breakfast finish?",
+        "Could I have the wifi password, please?",
+        "Is it possible to have a room away from the street?",
+        "Sorry, I didn't catch that.",
+        "Thank you, that's very helpful."
+      ],
+      "opening": "Good afternoon, welcome to the Parkview Hotel. Do you have a reservation with us?"
+    },
+    {
+      "id": "sc-03",
+      "title": "Job Interview",
+      "titleZh": "求职面试",
+      "level": "B2",
+      "role": "a hiring manager at a small marketing agency",
+      "setting": "A video interview for a junior marketing role. The learner has two years of experience and the interview is in its first ten minutes.",
+      "goal": "Present your relevant experience clearly, explain why you want this particular company, and ask one thoughtful question about the role.",
+      "usefulLanguage": [
+        "I've spent the last two years working on social media campaigns.",
+        "What attracted me to your agency was its work with local brands.",
+        "In my current role, I'm responsible for planning and reporting.",
+        "One example that comes to mind is a campaign we ran last spring.",
+        "I'd say my main strength is staying calm under pressure.",
+        "Could you tell me more about how the team is structured?",
+        "That's a good question — let me think for a moment."
+      ],
+      "opening": "Thanks for joining us today. To start, could you tell me a little about yourself?"
+    },
+    {
+      "id": "sc-04",
+      "title": "Missed Connection",
+      "titleZh": "转机误机",
+      "level": "B1",
+      "role": "an airline service desk agent at a large airport",
+      "setting": "The airline service desk at nine in the evening. The learner's first flight was delayed and the connecting flight has already left.",
+      "goal": "Explain what happened, ask to be rebooked on the next available flight, confirm what happens to your checked bag, and request a meal voucher.",
+      "usefulLanguage": [
+        "My first flight was delayed, so I missed my connection.",
+        "Could you put me on the next flight to Manchester?",
+        "Will my suitcase be sent on with me?",
+        "Is there anything earlier tomorrow morning?",
+        "Do I need to collect my bag and check in again?",
+        "Would it be possible to get a meal voucher?",
+        "What time should I be back at the gate?"
+      ],
+      "opening": "Good evening. How can I help you at the service desk?"
+    },
+    {
+      "id": "sc-05",
+      "title": "At the Doctor's",
+      "titleZh": "看医生",
+      "level": "A2",
+      "role": "a general practitioner at a local clinic",
+      "setting": "A ten-minute appointment at a walk-in clinic. The learner has had a sore throat and a cough for four days.",
+      "goal": "Describe your symptoms and how long you have had them, ask whether you need medicine, and find out if you should stay off work.",
+      "usefulLanguage": [
+        "I've had a sore throat since Monday.",
+        "It hurts when I swallow.",
+        "I've also been coughing a lot at night.",
+        "Do I need to take anything for it?",
+        "Should I stay at home from work?",
+        "How long will it take to get better?",
+        "Is it okay to drink coffee with this?"
+      ],
+      "opening": "Come in, take a seat. What seems to be the problem?"
+    },
+    {
+      "id": "sc-06",
+      "title": "Flat Viewing",
+      "titleZh": "看房租房",
+      "level": "B1",
+      "role": "a letting agent showing a one-bedroom flat",
+      "setting": "A viewing of a furnished one-bedroom flat on the second floor. The learner is looking for somewhere to live for at least a year.",
+      "goal": "Ask about the rent and bills, the deposit, and the length of the contract, then arrange a second viewing before deciding.",
+      "usefulLanguage": [
+        "Does the rent include water and heating?",
+        "How much deposit would I need to pay?",
+        "How long is the minimum contract?",
+        "Is the furniture included in the price?",
+        "How far is the nearest supermarket?",
+        "Would it be possible to see the flat again on Saturday?",
+        "I'd like a day or two to think it over."
+      ],
+      "opening": "Hi, thanks for coming. So this is the one-bedroom on the second floor — what would you like to know first?"
+    },
+    {
+      "id": "sc-07",
+      "title": "Office Hours",
+      "titleZh": "教授答疑时间",
+      "level": "B2",
+      "role": "a lecturer in economics holding weekly office hours",
+      "setting": "The lecturer's office on a Wednesday afternoon. The learner is worried about the upcoming essay and missed two seminars because of illness.",
+      "goal": "Explain the difficulty you are having, ask about the extension policy, and agree a clear plan with the lecturer for finishing the essay.",
+      "usefulLanguage": [
+        "I'm struggling with the second part of the essay question.",
+        "I missed two seminars because I was ill.",
+        "Could you clarify what you mean by 'critical evaluation'?",
+        "What's the procedure if I need an extension?",
+        "Would it be acceptable to focus on one case study?",
+        "So, to confirm, the new deadline would be the fifteenth?",
+        "Thank you — that makes things much clearer."
+      ],
+      "opening": "Hello — come in. You wanted to talk about the assignment, is that right?"
+    },
+    {
+      "id": "sc-08",
+      "title": "Internet Down",
+      "titleZh": "网络故障报修",
+      "level": "B1",
+      "role": "a call-centre agent for a home internet provider",
+      "setting": "A phone call to customer support. The learner's home internet has been down for two days and they work from home.",
+      "goal": "Explain the problem, answer the security questions, book a technician visit, and note down the reference number and appointment time.",
+      "usefulLanguage": [
+        "My internet has been down since Tuesday morning.",
+        "I've already restarted the router twice.",
+        "The light on the box is flashing red.",
+        "Could you send an engineer this week?",
+        "I'm available on Thursday afternoon.",
+        "Sorry, could you repeat the reference number?",
+        "What should I do if it's still not working after the visit?"
+      ],
+      "opening": "Good morning, you're through to CityNet support. My name is Alex. How can I help?"
+    },
+    {
+      "id": "sc-09",
+      "title": "Complaint at Dinner",
+      "titleZh": "餐厅投诉",
+      "level": "B2",
+      "role": "the manager of a mid-range Italian restaurant",
+      "setting": "A restaurant table at eight in the evening. The learner's main course arrived cold after a forty-minute wait, and a side dish was missing.",
+      "goal": "Complain politely but firmly, ask for the dish to be replaced, and discuss having the item removed from the bill without ruining the evening.",
+      "usefulLanguage": [
+        "I'm afraid this dish has gone cold.",
+        "We ordered the salad as well, but it never arrived.",
+        "We've been waiting quite a long time.",
+        "Could you bring us a fresh one, please?",
+        "I'd rather not pay for a dish I couldn't eat.",
+        "I don't want to make a fuss, but it's disappointing.",
+        "Would you be able to take it off the bill?"
+      ],
+      "opening": "Good evening — I'm the manager here. I understand there was a problem with your meal?"
+    },
+    {
+      "id": "sc-10",
+      "title": "Conference Reception",
+      "titleZh": "会议社交",
+      "level": "C1",
+      "role": "the founder of a small design studio at an industry conference",
+      "setting": "The evening reception of a design conference. People are standing in small groups with drinks, and the learner has come alone.",
+      "goal": "Introduce yourself, explain your work in a way that invites conversation, find shared interests, and suggest staying in touch without being pushy.",
+      "usefulLanguage": [
+        "I don't think we've met — I'm Lin, from Hangzhou.",
+        "I work on the product side, mostly with early-stage teams.",
+        "What brought you to the conference this year?",
+        "That's interesting — we've run into something similar.",
+        "It sounds like we're both trying to solve the same problem.",
+        "Would you be open to a quick call next week?",
+        "Let me send you my details rather than take up your evening."
+      ],
+      "opening": "Hi there — quite a turnout tonight. Is this your first time at the conference?"
+    },
+    {
+      "id": "sc-11",
+      "title": "Finding the Museum",
+      "titleZh": "问路",
+      "level": "A2",
+      "role": "a shopkeeper standing outside a corner shop",
+      "setting": "A street corner in an unfamiliar part of town. The learner wants to reach the city museum and has no map on their phone.",
+      "goal": "Ask for directions, follow the landmarks described, confirm how long the walk takes, and repeat the route back to check you understood.",
+      "usefulLanguage": [
+        "Excuse me, could you tell me how to get to the museum?",
+        "Is it far from here?",
+        "So I go straight, then turn left at the bank?",
+        "How long does it take on foot?",
+        "Is there a bus that goes there?",
+        "Let me make sure I've got that right.",
+        "Thanks a lot — you've been very helpful."
+      ],
+      "opening": "Hello — you look a bit lost. Can I help you find something?"
+    },
+    {
+      "id": "sc-12",
+      "title": "Negotiating a Deadline",
+      "titleZh": "协商截止日期",
+      "level": "C1",
+      "role": "the project lead at a client company",
+      "setting": "A video call two days before a report is due. The learner's team has hit unexpected delays and needs more time without losing the client's trust.",
+      "goal": "Explain the delay honestly, propose a specific one-week extension with a revised plan, and agree on an interim update so the client stays confident.",
+      "usefulLanguage": [
+        "I wanted to flag a scheduling risk before it becomes a problem.",
+        "The delay is mainly down to a change in the data we received.",
+        "Would it be realistic to agree on Friday the twenty-sixth instead?",
+        "In the meantime, I can send you a progress summary on Wednesday.",
+        "I appreciate the deadline is important on your side too.",
+        "What would make this work for you?",
+        "Let me confirm that in writing after the call."
+      ],
+      "opening": "Thanks for making time. I saw your email about the deadline — what's the situation?"
+    }
+  ]
+}

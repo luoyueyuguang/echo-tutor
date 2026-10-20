@@ -1,0 +1,372 @@
+{
+  "groups": [
+    {
+      "topic": "opinion",
+      "topicZh": "表达观点",
+      "phrases": [
+        {
+          "en": "I'd say that...",
+          "zh": "我会说……",
+          "note": "口语中最常用的观点开头，后面接完整句子。"
+        },
+        {
+          "en": "To my mind, ...",
+          "zh": "在我看来，……",
+          "note": "稍正式，适合 Part 3 的深入讨论。"
+        },
+        {
+          "en": "The way I see it, ...",
+          "zh": "依我看，……",
+          "note": "中性口语，适合展开个人判断。"
+        },
+        {
+          "en": "If you ask me, ...",
+          "zh": "要我说，……",
+          "note": "非正式，适合 Part 1 和日常对话。"
+        },
+        {
+          "en": "I've always felt that...",
+          "zh": "我一直觉得……",
+          "note": "适合谈长期看法或结合个人经历。"
+        },
+        {
+          "en": "From where I stand, ...",
+          "zh": "从我的立场看，……",
+          "note": "略正式，可用于有争议的话题。"
+        },
+        {
+          "en": "I'm a big believer in...",
+          "zh": "我非常相信……",
+          "note": "语气较强，适合表达价值判断。"
+        },
+        {
+          "en": "Personally, I'd argue that...",
+          "zh": "就个人而言，我认为……",
+          "note": "适合 Part 3 提出有理由的观点。"
+        }
+      ]
+    },
+    {
+      "topic": "agreement-disagreement",
+      "topicZh": "同意与不同意",
+      "phrases": [
+        {
+          "en": "I couldn't agree more.",
+          "zh": "我完全同意。",
+          "note": "强烈赞同，比 I agree 更自然。"
+        },
+        {
+          "en": "That's a fair point.",
+          "zh": "这个观点有道理。",
+          "note": "承认对方有理，常用于让步后继续补充。"
+        },
+        {
+          "en": "You've got a point there.",
+          "zh": "你说得有道理。",
+          "note": "口语化，适合轻松讨论。"
+        },
+        {
+          "en": "I'm with you on that.",
+          "zh": "这一点我同意你。",
+          "note": "非正式，表示站在对方一边。"
+        },
+        {
+          "en": "I see what you mean, but...",
+          "zh": "我明白你的意思，不过……",
+          "note": "部分同意后转折，讨论中很实用。"
+        },
+        {
+          "en": "That's true up to a point, though...",
+          "zh": "某种程度上是对的，不过……",
+          "note": "温和反驳，避免直接说对方错。"
+        },
+        {
+          "en": "I'm not so sure about that.",
+          "zh": "这我不太确定。",
+          "note": "礼貌表达不同意见，比 I disagree 柔和。"
+        },
+        {
+          "en": "I see it rather differently.",
+          "zh": "我的看法不太一样。",
+          "note": "较正式，适合观点冲突但想保持礼貌时。"
+        }
+      ]
+    },
+    {
+      "topic": "comparing",
+      "topicZh": "比较",
+      "phrases": [
+        {
+          "en": "Compared with..., ...",
+          "zh": "与……相比，……",
+          "note": "后接名词或动名词，主句要完整。"
+        },
+        {
+          "en": "There's a world of difference between...",
+          "zh": "……之间有天壤之别。",
+          "note": "强调差异很大，适合口语夸张表达。"
+        },
+        {
+          "en": "X is nowhere near as ... as Y.",
+          "zh": "X 远不如 Y 那么……",
+          "note": "口语强调差距，注意用形容词原级。"
+        },
+        {
+          "en": "One of the main differences is that...",
+          "zh": "主要区别之一是……",
+          "note": "适合有条理地展开比较。"
+        },
+        {
+          "en": "They're broadly similar in that...",
+          "zh": "它们的相似之处大致在于……",
+          "note": "先承认相似再讲差异，讨论更平衡。"
+        },
+        {
+          "en": "While X tends to..., Y...",
+          "zh": "X 往往……，而 Y……",
+          "note": "while 引出对比，适合 Part 3。"
+        },
+        {
+          "en": "X has the edge over Y when it comes to...",
+          "zh": "在……方面，X 比 Y 略胜一筹。",
+          "note": "表示轻微优势，语气不生硬。"
+        },
+        {
+          "en": "On the one hand..., on the other...",
+          "zh": "一方面……，另一方面……",
+          "note": "口语讨论中可用，但不要整段只靠这个结构。"
+        }
+      ]
+    },
+    {
+      "topic": "cause-effect",
+      "topicZh": "因果",
+      "phrases": [
+        {
+          "en": "That's largely down to...",
+          "zh": "这主要归因于……",
+          "note": "down to 后接名词或动名词，口语常用。"
+        },
+        {
+          "en": "It all stems from...",
+          "zh": "这一切都源于……",
+          "note": "适合解释问题的根源。"
+        },
+        {
+          "en": "Because of that, ...",
+          "zh": "正因如此，……",
+          "note": "简单直接的因果连接，口语自然。"
+        },
+        {
+          "en": "This tends to lead to...",
+          "zh": "这往往会导致……",
+          "note": "tends to 让语气更谨慎，不把话说死。"
+        },
+        {
+          "en": "One thing that drives this is...",
+          "zh": "推动这一点的一个因素是……",
+          "note": "适合分析原因，不显得像背模板。"
+        },
+        {
+          "en": "The knock-on effect is that...",
+          "zh": "由此产生的连锁反应是……",
+          "note": "强调间接后果，适合社会话题。"
+        },
+        {
+          "en": "It's partly a matter of...",
+          "zh": "这部分是因为……",
+          "note": "表示原因之一，避免把因果说得太绝对。"
+        },
+        {
+          "en": "As a result, ...",
+          "zh": "结果是，……",
+          "note": "通用因果连接，口语中常与 so 交替使用。"
+        }
+      ]
+    },
+    {
+      "topic": "examples",
+      "topicZh": "举例",
+      "phrases": [
+        {
+          "en": "Take my own experience — ...",
+          "zh": "拿我自己的经历来说——",
+          "note": "用亲身经历举例，Part 1 和 Part 3 都自然。"
+        },
+        {
+          "en": "A good example would be...",
+          "zh": "一个很好的例子是……",
+          "note": "后接名词或动名词，适合稍正式的回答。"
+        },
+        {
+          "en": "Off the top of my head, I can think of...",
+          "zh": "我一下子能想到……",
+          "note": "表示临时想到，不必举例太多。"
+        },
+        {
+          "en": "Something like... springs to mind.",
+          "zh": "我马上想到的是……",
+          "note": "springs to mind 很地道，后接名词。"
+        },
+        {
+          "en": "Just to give you an idea, ...",
+          "zh": "让你有个概念，……",
+          "note": "引出具体例子帮助说明，语气友好。"
+        },
+        {
+          "en": "Say, for example, you...",
+          "zh": "比如说你……",
+          "note": "用假设场景举例，适合解释抽象观点。"
+        },
+        {
+          "en": "I remember once when...",
+          "zh": "我记得有一次……",
+          "note": "用过去的小故事举例，注意时态一致。"
+        },
+        {
+          "en": "A case in point is...",
+          "zh": "一个恰当的例子是……",
+          "note": "略正式，适合举例后立即解释。"
+        }
+      ]
+    },
+    {
+      "topic": "speculation",
+      "topicZh": "推测",
+      "phrases": [
+        {
+          "en": "I imagine...",
+          "zh": "我想……",
+          "note": "表示合理猜测，后接完整句子。"
+        },
+        {
+          "en": "It might well be that...",
+          "zh": "很可能是……",
+          "note": "might well 表示可能性较高，语气谨慎。"
+        },
+        {
+          "en": "There's a good chance that...",
+          "zh": "很有可能……",
+          "note": "比 maybe 更有把握，适合预测。"
+        },
+        {
+          "en": "I wouldn't be surprised if...",
+          "zh": "如果……我也不会感到意外。",
+          "note": "委婉表达某事很可能发生。"
+        },
+        {
+          "en": "My guess is that...",
+          "zh": "我猜……",
+          "note": "明确说明是猜测，适合没有把握时。"
+        },
+        {
+          "en": "It could go either way.",
+          "zh": "两种结果都有可能。",
+          "note": "用于预测不确定的结果，很口语。"
+        },
+        {
+          "en": "I suspect...",
+          "zh": "我怀疑／猜想……",
+          "note": "带有保留态度，适合分析原因。"
+        },
+        {
+          "en": "Who knows — maybe...",
+          "zh": "谁知道呢——也许……",
+          "note": "轻松口语，适合结尾留有余地。"
+        }
+      ]
+    },
+    {
+      "topic": "buying-time",
+      "topicZh": "争取思考时间",
+      "phrases": [
+        {
+          "en": "That's a good question.",
+          "zh": "这是个好问题。",
+          "note": "争取一两秒思考，但不要每题都用。"
+        },
+        {
+          "en": "Let me think for a second.",
+          "zh": "让我想一下。",
+          "note": "直接自然，适合 Part 3。"
+        },
+        {
+          "en": "How should I put this?",
+          "zh": "该怎么说呢？",
+          "note": "表示在寻找合适的表达，语气真实。"
+        },
+        {
+          "en": "Well, where do I start?",
+          "zh": "嗯，从哪儿说起呢？",
+          "note": "适合问题较大、需要组织内容时。"
+        },
+        {
+          "en": "It depends, really.",
+          "zh": "这真的要看情况。",
+          "note": "先争取时间，同时为分情况回答做铺垫。"
+        },
+        {
+          "en": "I've never really thought about that before, but...",
+          "zh": "我以前真没想过这个问题，不过……",
+          "note": "诚实且能自然过渡到思考。"
+        },
+        {
+          "en": "Give me a moment to gather my thoughts.",
+          "zh": "给我一点时间整理一下思路。",
+          "note": "稍正式，适合压力较大的口语考试。"
+        },
+        {
+          "en": "The short answer is..., but let me explain.",
+          "zh": "简短的回答是……，不过让我解释一下。",
+          "note": "先给结论再展开，显得有条理。"
+        }
+      ]
+    },
+    {
+      "topic": "summarising",
+      "topicZh": "总结",
+      "phrases": [
+        {
+          "en": "So, all in all, ...",
+          "zh": "所以，总的来说，……",
+          "note": "口语总结，适合回答结尾。"
+        },
+        {
+          "en": "What it comes down to is...",
+          "zh": "归根结底是……",
+          "note": "强调核心观点，后接名词或从句。"
+        },
+        {
+          "en": "Basically, what I'm saying is...",
+          "zh": "基本上，我想说的是……",
+          "note": "重新表述观点，语气自然。"
+        },
+        {
+          "en": "Looking at it as a whole, ...",
+          "zh": "从整体来看，……",
+          "note": "适合权衡多个因素后总结。"
+        },
+        {
+          "en": "The main thing, I suppose, is...",
+          "zh": "我想最主要的还是……",
+          "note": "口语化总结，带一点不确定。"
+        },
+        {
+          "en": "So, on balance, ...",
+          "zh": "所以，权衡下来，……",
+          "note": "适合比较利弊后给出结论。"
+        },
+        {
+          "en": "Let me put it another way: ...",
+          "zh": "让我换个说法：",
+          "note": "解释不清时重新表述，用来收束观点。"
+        },
+        {
+          "en": "To cut a long story short, ...",
+          "zh": "长话短说，……",
+          "note": "适合讲完经历后快速收尾。"
+        }
+      ]
+    }
+  ]
+}

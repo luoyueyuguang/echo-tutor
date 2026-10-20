@@ -1,0 +1,324 @@
+{
+  "drills": [
+    {
+      "id": "drill-01",
+      "focus": "linking",
+      "title": "Join the consonant to the vowel",
+      "items": [
+        {
+          "text": "Could you pick it up on your way out?",
+          "tip": "把 pick、it、up 连成 pick-it-up，词尾辅音直接接到后面的元音上。",
+          "zh": "你出去的时候能顺便把它拿上吗？"
+        },
+        {
+          "text": "I'll be back in an hour or two.",
+          "tip": "back-in-an-hour 整串连读，hour 前面的 an 几乎一带而过。",
+          "zh": "我一两个小时后回来。"
+        },
+        {
+          "text": "She's not at all interested in the offer.",
+          "tip": "not-at-all 连成一个节奏组，at 的 t 轻触即过。",
+          "zh": "她对那个提议一点都不感兴趣。"
+        },
+        {
+          "text": "We need to check it out before we sign anything.",
+          "tip": "check-it-out 中间不要停顿，it 的 t 变成轻快的闪音。",
+          "zh": "签字之前我们得先把它核实一下。"
+        },
+        {
+          "text": "Turn it off and on again, then give it a minute.",
+          "tip": "turn-it-off-and-on 一口气连读，off 和 and 之间不要断开。",
+          "zh": "把它关掉再打开，然后等一分钟。"
+        }
+      ]
+    },
+    {
+      "id": "drill-02",
+      "focus": "linking",
+      "title": "Linking across short phrases",
+      "items": [
+        {
+          "text": "An apple a day keeps the doctor away.",
+          "tip": "an-apple 和 apple-a 都要连起来，读成 a-napple-a-day。",
+          "zh": "一天一苹果，医生远离我。"
+        },
+        {
+          "text": "I'm going to ask her about it after the meeting.",
+          "tip": "ask-her-about-it 连读，her 的 h 可以弱化甚至省略。",
+          "zh": "会议结束后我会问她这件事。"
+        },
+        {
+          "text": "There's a lot of ice on the road this morning.",
+          "tip": "lot-of-ice-on 中 t、f、s 依次滑向后面的元音，保持气流不断。",
+          "zh": "今天早上路上有很多冰。"
+        },
+        {
+          "text": "He walked into the office and asked for a seat.",
+          "tip": "walked-into 和 office-and 连读，and 弱读成 /ən/。",
+          "zh": "他走进办公室，要了一个座位。"
+        },
+        {
+          "text": "Put it in the box over there by the door.",
+          "tip": "put-it-in 三词连成一拍，box-over 之间也顺势连接。",
+          "zh": "把它放在门边那个箱子里。"
+        }
+      ]
+    },
+    {
+      "id": "drill-03",
+      "focus": "stress",
+      "title": "Stress the message words",
+      "items": [
+        {
+          "text": "I think we should leave now, before it gets dark.",
+          "tip": "重读 think、leave、now、dark；I 和 should 要轻。",
+          "zh": "我觉得我们应该现在就走，趁天还没黑。"
+        },
+        {
+          "text": "She's really good at explaining difficult ideas.",
+          "tip": "重读 really、good、explaining、difficult，其余虚词快速带过。",
+          "zh": "她很擅长解释复杂的概念。"
+        },
+        {
+          "text": "The meeting isn't on Tuesday; it's on Thursday.",
+          "tip": "对比重音落在 Tuesday 和 Thursday 上，两个词要明显抬高。",
+          "zh": "会议不在周二，而是在周四。"
+        },
+        {
+          "text": "I'd love to come, but I'm working late that evening.",
+          "tip": "重读 love 和 but，用 but 的加重表达转折和歉意。",
+          "zh": "我很想来，但那天晚上我要加班。"
+        },
+        {
+          "text": "That's not what I ordered — I asked for the soup.",
+          "tip": "重读 not 和 soup，用重音突出纠错的重点。",
+          "zh": "这不是我点的——我要的是汤。"
+        }
+      ]
+    },
+    {
+      "id": "drill-04",
+      "focus": "stress",
+      "title": "Word stress inside long words",
+      "items": [
+        {
+          "text": "I need to confirm the reservation before we leave.",
+          "tip": "confirm 重音在第二音节，reservation 重音在第三音节 -va-。",
+          "zh": "出发前我需要确认一下预订。"
+        },
+        {
+          "text": "The photographer took a beautiful photograph.",
+          "tip": "photographer 重音在 -tog-，photograph 重音在最前，注意区分。",
+          "zh": "那位摄影师拍了一张漂亮的照片。"
+        },
+        {
+          "text": "It's important to practise pronunciation every day.",
+          "tip": "important 重音在 -por-，practise 重音在前，pronunciation 重音在 -na-。",
+          "zh": "每天练习发音很重要。"
+        },
+        {
+          "text": "She made a generous offer, but I politely refused.",
+          "tip": "generous 重音在首音节，politely 和 refused 重音都在后段。",
+          "zh": "她提出了一个慷慨的提议，但我礼貌地拒绝了。"
+        },
+        {
+          "text": "We discussed the proposal and agreed to revise it.",
+          "tip": "discussed 重音在后，proposal 重音在 -po-，agreed 和 revise 也要加重。",
+          "zh": "我们讨论了这个提案，并同意修改。"
+        }
+      ]
+    },
+    {
+      "id": "drill-05",
+      "focus": "minimal-pair",
+      "title": "Short and long vowels",
+      "items": [
+        {
+          "text": "The ship left at six, and the sheep stayed on the hill.",
+          "tip": "ship 的 /ɪ/ 短而松，sheep 的 /iː/ 长而紧，嘴角要拉开。",
+          "zh": "船六点离开了，羊留在了山坡上。"
+        },
+        {
+          "text": "I live here, but I leave for work at seven.",
+          "tip": "live 用短音 /ɪ/，leave 用长音 /iː/，别把两个词读成同一个。",
+          "zh": "我住在这里，但我七点出发去上班。"
+        },
+        {
+          "text": "You'd be a fool to pay full price for that.",
+          "tip": "fool 和 full 对比：前者 /uː/ 拖长，后者 /ʊ/ 短促。",
+          "zh": "你要是全价买那个就太傻了。"
+        },
+        {
+          "text": "The bed in that hotel was bad, but the view was great.",
+          "tip": "bed 的 /e/ 和 bad 的 /æ/ 要分清，bad 张嘴更大。",
+          "zh": "那家酒店的床很差，但风景很好。"
+        },
+        {
+          "text": "I think this thin jacket is the wrong thing for winter.",
+          "tip": "thin 和 thing 结尾不同：前者舌尖轻触齿间，后者是鼻音 /ŋ/。",
+          "zh": "我觉得这件薄夹克不适合冬天。"
+        }
+      ]
+    },
+    {
+      "id": "drill-06",
+      "focus": "minimal-pair",
+      "title": "Sounds that trip up Chinese speakers",
+      "items": [
+        {
+          "text": "I left my hat in the hot car outside the shop.",
+          "tip": "hat 的 /æ/ 嘴形扁而大，hot 的 /ɒ/ 嘴唇收圆，两个词不要混。",
+          "zh": "我把帽子落在商店外面那辆热乎乎的车里了。"
+        },
+        {
+          "text": "The right light above the door isn't working.",
+          "tip": "right 以 /t/ 收尾，light 以 /t/ 收尾但元音不同：/aɪ/ 要饱满。",
+          "zh": "门上方右边那盏灯坏了。"
+        },
+        {
+          "text": "It was pure luck that the lock finally opened.",
+          "tip": "luck 的 /ʌ/ 短促居中，lock 的 /ɒ/ 圆唇，对比着读。",
+          "zh": "锁最后能打开纯属运气。"
+        },
+        {
+          "text": "Three trees were planted along the thin path.",
+          "tip": "three 的 /θ/ 舌尖伸出齿间，tree 的 /tr/ 舌尖卷起，别读成同一个音。",
+          "zh": "沿着那条窄小路种了三棵树。"
+        },
+        {
+          "text": "I think the sink in the kitchen is leaking again.",
+          "tip": "think 是 /θɪŋk/，sink 是 /sɪŋk/，前者舌尖必须碰到上齿。",
+          "zh": "我觉得厨房的水槽又漏水了。"
+        }
+      ]
+    },
+    {
+      "id": "drill-07",
+      "focus": "intonation",
+      "title": "Rise, fall and list",
+      "items": [
+        {
+          "text": "Are you coming to the party on Saturday?",
+          "tip": "一般疑问句用升调，句尾 Saturday 明显上扬。",
+          "zh": "你周六来参加派对吗？"
+        },
+        {
+          "text": "Where did you put the keys this time?",
+          "tip": "特殊疑问句用降调，keys 之后音高下落，不要学成升调。",
+          "zh": "你这次把钥匙放哪儿了？"
+        },
+        {
+          "text": "Would you like tea, coffee, or something cold?",
+          "tip": "列举时前两项微升，最后一项降下来，形成收束。",
+          "zh": "你想要茶、咖啡，还是冷饮？"
+        },
+        {
+          "text": "You've finished the report already, haven't you?",
+          "tip": "反义疑问句在这里用降调，表示确认而不是真的发问。",
+          "zh": "你已经写完报告了，对吧？"
+        },
+        {
+          "text": "I didn't take your umbrella — I took mine.",
+          "tip": "前半句平调铺垫，破折号后 mine 重读并降调，突出对比。",
+          "zh": "我没拿你的伞——我拿的是我自己的。"
+        }
+      ]
+    },
+    {
+      "id": "drill-08",
+      "focus": "intonation",
+      "title": "Attitude in the voice",
+      "items": [
+        {
+          "text": "Could you possibly open the window?",
+          "tip": "礼貌请求用缓升调，possibly 稍加重，句尾轻轻上扬。",
+          "zh": "你能把窗户打开一下吗？"
+        },
+        {
+          "text": "Why on earth would you do that?",
+          "tip": "整句偏高，do 重读后急降，表达惊讶和不理解。",
+          "zh": "你到底为什么要那么做？"
+        },
+        {
+          "text": "It's not a bad idea, actually.",
+          "tip": "用降升调：idea 先降后微升，暗示态度有所保留。",
+          "zh": "其实这主意还不错。"
+        },
+        {
+          "text": "Do you want to eat now or wait until later?",
+          "tip": "选择疑问句：now 升、later 降，两个选项形成对比。",
+          "zh": "你想现在吃，还是等到晚一点？"
+        },
+        {
+          "text": "That was a lovely evening, wasn't it?",
+          "tip": "句尾用升调寻求对方认同，语气比降调更亲切。",
+          "zh": "那真是个愉快的夜晚，不是吗？"
+        }
+      ]
+    },
+    {
+      "id": "drill-09",
+      "focus": "chunking",
+      "title": "Break long sentences into thought groups",
+      "items": [
+        {
+          "text": "When you get to the station, give me a call and I'll come and meet you.",
+          "tip": "分成三块：When you get to the station / give me a call / and I'll come and meet you。",
+          "zh": "你到车站后给我打个电话，我来接你。"
+        },
+        {
+          "text": "If you finish the report before Friday, we can send it to the client early.",
+          "tip": "在逗号处换气，条件句一块，主句一块，不要逐词停顿。",
+          "zh": "如果你周五前写完报告，我们可以提前发给客户。"
+        },
+        {
+          "text": "The thing is, I've already booked the tickets, so we can't change the date now.",
+          "tip": "The thing is 单独一块作铺垫，so 前再停顿一次。",
+          "zh": "问题是，我已经订好票了，所以现在没法改日期。"
+        },
+        {
+          "text": "What I'd suggest is that we split the work and meet again on Thursday.",
+          "tip": "What I'd suggest is 后稍停，that 从句整体读出，重音落在 split 和 Thursday。",
+          "zh": "我的建议是我们把工作分开，周四再碰面。"
+        },
+        {
+          "text": "Although it was raining, we decided to walk to the restaurant anyway.",
+          "tip": "让步状语一块，主句一块，逗号处是最自然的换气点。",
+          "zh": "尽管在下雨，我们还是决定步行去餐厅。"
+        }
+      ]
+    },
+    {
+      "id": "drill-10",
+      "focus": "chunking",
+      "title": "Keep the flow, lose the rush",
+      "items": [
+        {
+          "text": "To be honest, I wasn't expecting the interview to be that difficult.",
+          "tip": "To be honest 快速带过，主句放慢，difficult 重读并稍作延长。",
+          "zh": "说实话，我没想到面试会那么难。"
+        },
+        {
+          "text": "The problem with the plan is that nobody has enough time to test it.",
+          "tip": "在 plan 后停顿，is that 连读，后半句整块推出。",
+          "zh": "这个计划的问题在于，没有人有足够的时间去测试它。"
+        },
+        {
+          "text": "As far as I can tell, the shop closes at six on weekdays.",
+          "tip": "As far as I can tell 一块读完，主句在 closes 上加重。",
+          "zh": "据我所知，这家店工作日下午六点关门。"
+        },
+        {
+          "text": "What we need to do first is find out who has the key.",
+          "tip": "first 后停顿，find out 连读，who has the key 一气呵成。",
+          "zh": "我们首先需要弄清楚谁有钥匙。"
+        },
+        {
+          "text": "If I were you, I'd wait until the prices come down a bit.",
+          "tip": "条件句和主句分开，come down a bit 连成一块，句尾自然降调。",
+          "zh": "如果我是你，我会等到价格降一点再买。"
+        }
+      ]
+    }
+  ]
+}
